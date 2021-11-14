@@ -1,0 +1,127 @@
+[22-Oct-2021 21:55:20 UTC] PHP Notice:  Undefined variable: siteurl in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 17
+[22-Oct-2021 21:55:20 UTC] PHP Notice:  Constant ENVIRONMENT already defined in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\env.php on line 15
+[22-Oct-2021 22:11:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function testimonials() in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\homepage.php:11
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php(45): include()
+#1 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\theme.php(8): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\template.php(3): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\eng.php(44): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\publish\site2\boot.php(4): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\publish\site2\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\homepage.php on line 11
+[22-Oct-2021 22:11:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function testimonials() in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\homepage.php:11
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php(45): include()
+#1 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\theme.php(8): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\template.php(3): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\eng.php(44): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\publish\site2\boot.php(4): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\publish\site2\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\homepage.php on line 11
+[22-Oct-2021 22:23:13 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\homepage.php on line 11
+[26-Oct-2021 12:51:00 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\contactpage.php on line 49
+[26-Oct-2021 12:51:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\contactpage.php on line 49
+[27-Oct-2021 19:08:04 UTC] PHP Warning:  Use of undefined constant dribbble - assumed 'dribbble' (this will throw an Error in a future version of PHP) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\theme_function.php on line 42
+[29-Oct-2021 10:43:35 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\homepage.php on line 426
+[29-Oct-2021 10:44:17 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\homepage.php on line 426
+[29-Oct-2021 20:34:04 UTC] PHP Warning:  Use of undefined constant instagram - assumed 'instagram' (this will throw an Error in a future version of PHP) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\contactpage.php on line 98
+[01-Nov-2021 03:51:23 UTC] PHP Warning:  Use of undefined constant instagram - assumed 'instagram' (this will throw an Error in a future version of PHP) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\contactpage.php on line 98
+[01-Nov-2021 03:55:51 UTC] PHP Warning:  Use of undefined constant instagram - assumed 'instagram' (this will throw an Error in a future version of PHP) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\contactpage.php on line 98
+[01-Nov-2021 04:21:44 UTC] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 38
+[01-Nov-2021 04:22:24 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 36
+[01-Nov-2021 04:24:17 UTC] PHP Fatal error:  Can't use function return value in write context in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 36
+[03-Nov-2021 02:37:14 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 70
+[03-Nov-2021 02:37:52 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 70
+[03-Nov-2021 02:37:53 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 70
+[03-Nov-2021 02:37:54 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 70
+[03-Nov-2021 02:37:54 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 70
+[03-Nov-2021 02:37:55 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 70
+[03-Nov-2021 02:37:55 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 70
+[03-Nov-2021 02:37:55 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\body.php on line 70
+[03-Nov-2021 03:18:39 UTC] PHP Warning:  Use of undefined constant default_body - assumed 'default_body' (this will throw an Error in a future version of PHP) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\theme.php on line 15
+[03-Nov-2021 03:18:39 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\theme.php on line 15
+[04-Nov-2021 15:54:46 UTC] PHP Warning:  Use of undefined constant instagram - assumed 'instagram' (this will throw an Error in a future version of PHP) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\contact.php on line 98
+[04-Nov-2021 15:55:10 UTC] PHP Warning:  Use of undefined constant instagram - assumed 'instagram' (this will throw an Error in a future version of PHP) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\contact.php on line 98
+[05-Nov-2021 16:43:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function customHash(), 0 passed in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\portfolio.php on line 1 and exactly 2 expected in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php:6
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\portfolio.php(1): customHash()
+#1 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\_body.php(26): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\theme.php(23): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\template.php(4): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\eng.php(44): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\publish\site2\boot.php(7): require('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\workspace\tacnix\publish\site2\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#7 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 6
+[05-Nov-2021 16:44:29 UTC] PHP Warning:  Use of undefined constant a - assumed 'a' (this will throw an Error in a future version of PHP) in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\portfolio.php on line 1
+[05-Nov-2021 16:44:29 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[05-Nov-2021 16:44:40 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[05-Nov-2021 16:45:06 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[05-Nov-2021 16:45:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function customHash(), 0 passed in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\portfolio.php on line 1 and exactly 2 expected in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php:6
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\portfolio.php(1): customHash()
+#1 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\_body.php(26): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\theme.php(23): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\template.php(4): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\eng.php(44): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\publish\site2\boot.php(7): require('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\workspace\tacnix\publish\site2\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#7 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 6
+[05-Nov-2021 16:45:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function customHash(), 0 passed in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\portfolio.php on line 1 and exactly 2 expected in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php:6
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\portfolio.php(1): customHash()
+#1 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\_body.php(26): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\theme.php(23): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\template.php(4): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\eng.php(44): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\publish\site2\boot.php(7): require('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\workspace\tacnix\publish\site2\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#7 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 6
+[05-Nov-2021 16:45:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function customHash(), 1 passed in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\portfolio.php on line 1 and exactly 2 expected in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php:6
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\pages\portfolio.php(1): customHash('lol')
+#1 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\_body.php(26): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\theme.php(23): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\template.php(4): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\eng.php(44): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\publish\site2\boot.php(7): require('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\workspace\tacnix\publish\site2\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#7 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 6
+[05-Nov-2021 16:46:00 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[05-Nov-2021 16:46:12 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[05-Nov-2021 16:46:20 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[05-Nov-2021 16:46:28 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[05-Nov-2021 16:47:33 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[05-Nov-2021 16:47:43 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[05-Nov-2021 17:15:58 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[05-Nov-2021 17:16:09 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[05-Nov-2021 17:18:24 UTC] PHP Warning:  str_split(): The length of each segment must be greater than zero in C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\salts.php on line 10
+[11-Nov-2021 19:09:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function timezone() in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\__theme.php:12
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\template.php(4): include()
+#1 C:\MAMP\htdocs\workspace\tacnix\publish\site2\binary\__core.php(44): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\publish\site2\__boot.php(7): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\publish\site2\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#4 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\publish\site2\library\theme\__theme.php on line 12
+[14-Nov-2021 09:16:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __timezone() in C:\MAMP\htdocs\workspace\tacnix\library\theme\__theme.php:12
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\template.php(4): include()
+#1 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(44): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\__boot.php(7): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#4 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\theme\__theme.php on line 12
+[14-Nov-2021 09:18:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __timezone() in C:\MAMP\htdocs\workspace\tacnix\library\theme\__theme.php:12
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\template.php(4): include()
+#1 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(44): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\__boot.php(7): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#4 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\theme\__theme.php on line 12

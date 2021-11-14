@@ -1,0 +1,36 @@
+<body class="v-dark dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
+<?php
+if (file_exists(pages . ds . 'loader.tpl')) {
+    include (pages . ds . 'loader.tpl');
+}
+
+if (file_exists(pages . ds . 'menu.tpl')) {
+    include (pages . ds . 'menu.tpl');
+}
+
+?>
+
+<main class="main-root">
+    <div id="dsn-scrollbar">
+        <div class="main-content">
+          <?php if (file_exists(pages . ds . 'header.tpl')) { include (pages . ds . 'header.tpl'); } ?>
+          <div class="wrapper">
+            <?php if (file_exists(pages . ds . 'header-services.tpl')) { include (pages . ds . 'header-services.tpl'); } ?>
+            <?php if (file_exists(pages . ds . 'about.tpl')) { include (pages . ds . 'about.tpl'); } ?>
+            <?php if (file_exists(pages . ds . 'box-gv-img-l.tpl')) { include (pages . ds . 'box-gv-img-l.tpl'); } ?>
+            <?php if (file_exists(pages . ds . 'box-gv-img-r.tpl')) { include (pages . ds . 'box-gv-img-r.tpl'); } ?>
+            <?php if (file_exists(pages . ds . 'skills.tpl')) { include (pages . ds . 'skills.tpl'); } ?>
+            <?php if (file_exists(pages . ds . 'facts.tpl')) { include (pages . ds . 'facts.tpl'); } ?>
+            <?php //if (file_exists(pages . ds . 'blogposts.tpl')) { include (pages . ds . 'blogposts.tpl'); } ?>
+            <?php if (file_exists(pages . ds . 'testimonials.tpl')) { include (pages . ds . 'testimonials.tpl'); } ?>
+            <?php if (file_exists(pages . ds . 'brands.tpl')) { include (pages . ds . 'brands.tpl'); } ?>
+            <?php if (file_exists(pages . ds . 'nextpage.tpl')) { include (pages . ds . 'nextpage.tpl'); } ?>
+          </div>
+          <?php if (file_exists(pages . ds . 'footer.tpl')) { include (pages . ds . 'footer.tpl'); } ?>
+        </div>
+    </div>
+    <?php if (file_exists(pages . ds . 'contact_form_model.tpl')) { include (pages . ds . 'contact_form_model.tpl'); } ?>
+</main>
+
+
+<!-- </body> -->

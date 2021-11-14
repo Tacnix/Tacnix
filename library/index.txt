@@ -1,0 +1,14 @@
+<?php if (function_exists(hompage_header())) { hompage_header(); } ?>
+<div class="wrapper">
+  <?php if (function_exists(homepage_serviceSection())) { homepage_serviceSection(); } ?>
+  <?php if (function_exists(hompage_about())) { hompage_about(); } ?>
+  <?php if (function_exists(homepage_boxgvimg_l())) { homepage_boxgvimg_l(); } ?>
+  <?php if (function_exists(homepage_boxgvimg_r())) { homepage_boxgvimg_r(); } ?>
+  <?php if (function_exists(homepage_skils())) { homepage_skils(); } ?>
+  <?php if (function_exists(homepage_facts())) { homepage_facts(); } ?>
+  <?php //if (function_exists(homepage_blogposts())) { homepage_blogposts(); } ?>
+  <?php if (file_exists(pages . ds . 'testimonials.tpl')) { include (pages . ds . 'testimonials.tpl'); } ?>
+  <?php if (file_exists(pages . ds . 'brands.tpl')) { include (pages . ds . 'brands.tpl'); } ?>
+  <?php if (file_exists(pages . ds . 'nextpage.tpl')) { include (pages . ds . 'nextpage.tpl'); } ?>
+</div>
+<?php if (file_exists(pages . ds . 'footer.tpl')) { include (pages . ds . 'footer.tpl'); } ?>
