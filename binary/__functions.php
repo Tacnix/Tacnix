@@ -29,10 +29,11 @@ function cleanurl() {
 
 function __timezone($value) {
   define('DEFAULT_TIMEZONE', $value);
-  if (function_exists('date_default_timezone_set')) {
-    date_default_timezone_set('DEFAULT_TIMEZONE');
-  }
+  if (function_exists('date_default_timezone_set'))
+  { date_default_timezone_set('DEFAULT_TIMEZONE'); }
 }
+
+// __timezone ('Asia/Calcutta');
 
 function posts() {
 

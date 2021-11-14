@@ -10,7 +10,7 @@
           <div class="subtitle dsn-load-animate line-shap line-shap-before d-inline-block mb-20">We are a design & development agency</div>
           <h1 class="title dsn-load-animate">Crafting Digital <br> Experiences</h1>
           <p class="mt-20 max-w570 dsn-load-animate">Miena sipu del inora aid consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis nutka, pulvinar dapibus leo della pierrano set amuse.</p>
-          <a href="services.html" class="mt-20 dsn-button has-border background-theme image-zoom dsn-load-animate" data-dsn="parallax">Our Services</a>
+          <a href="?p=services" class="mt-20 dsn-button has-border background-theme image-zoom dsn-load-animate" data-dsn="parallax">Our Services</a>
         </div>
       </div>
     </div>
@@ -280,7 +280,7 @@
                 <li class="lest-number mb-15"><span class="number">2</span> <span class="sm-title-block">Marketing strategies & Digital marketing</span></li>
                 <li class="lest-number"><span class="number">3</span> <span class="sm-title-block">Management & Strong Strategies</span></li>
               </ul>
-              <a href="services.html" class="mt-30 dsn-button has-border background-theme image-zoom" data-dsn="parallax">View More<span class="icon">⟶</span></a>
+              <a href="?p=services" class="mt-30 dsn-button has-border background-theme image-zoom" data-dsn="parallax">View More<span class="icon">⟶</span></a>
             </div>
           </div>
         </div>
@@ -326,7 +326,7 @@
                   </div>
                 </div>
               </div>
-              <a href="services.html" class="mt-30 dsn-button has-border background-theme image-zoom" data-dsn="parallax">View More<span class="icon">⟶</span></a>
+              <a href="?p=services" class="mt-30 dsn-button has-border background-theme image-zoom" data-dsn="parallax">View More<span class="icon">⟶</span></a>
             </div>
           </div>
         </div>
@@ -765,7 +765,7 @@
         </div>
         <div class="button-box d-flex justify-content-end align-items-center">
           <div>
-            <a href="?p=contact&from=home" class="mt-30 effect-ajax dsn-button p-relative"><span class="dsn-border-rdu "></span>Contact Us</a>
+            <a href="?p=contact&from=home" class="mt-30 effect-ajax dsn-button p-relative"><span class="dsn-border-rdu"></span>Contact Us</a>
           </div>
         </div>
       </div>
@@ -773,3 +773,4 @@
   </section>
   <!-- ========== End next page ========== -->
 </div>
+<?php if (function_exists(homepage_footer())) { homepage_footer(); } ?>

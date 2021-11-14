@@ -12,9 +12,9 @@
  */
 
 // OWNER DETAILS
-define('APP_NAME', 'Tacnix');
-define('APP_TAG',  'tacnix');
-define('APP_LINK', 'https://tacnix.com/');
+define('SITE_NAME', 'Tacnix');
+define('SITE_TAG',  'tacnix');
+define('SITE_LINK', 'https://tacnix.com/');
 
 // AUTHOR DETAILS
 define('AUTH_NAME', 'Panchal Mukunda K');
@@ -26,7 +26,10 @@ define('DEV_NAME', 'Panchal Mukunda K');
 define('DEV_TAG',  'Panchal_Mukunda_K');
 define('DEV_LINK', 'https://developers.tacnix.com/');
 
-//SITE CONTACT DETAILS
+//SITE DETAILS
+define('meta_title', '&lt;/t&gt;');
+define('meta_desc', 'We are a webste design & web development agency, that Crafting Digital Experiences');
+define('meta_keyword', 'tacnix, website design, web development, web hosting, domain registration, crm solutions, erp solutions, pos solutoins, ppc marketing');
 define('title', '&lt;/tacnix&gt;');
 define('contact_address', '804, Mahalakshmi Tower, Tithal Road<br>Valsasd, Gujarat - 396001');
 define('contact_number', '+91 7738 064 970');
