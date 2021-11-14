@@ -1,12 +1,11 @@
 <?php
 /**
- * @category ENVIRONMENT
- * @package  CORE
- * @author   Pancal Mukunda K <hello@tacnix.com>
- * @license  MIT <a href="https://tacnix.com/">Tacnix</a>
- * @version  GIT: 1.0.0 https://www.github.com/tacnix/env/
- * @link     https://tacnix.com/
- * @var      ENVIRONMENT 0 default environmental level for starting the application.
+ * @category Env
+ * @package  Tacnix
+ * @author   Mukunda Pancal <hello@tacnix.com>
+ * @license  Apache License 2.0 https://github.com/panchalmukundak/tacnix/blob/main/LICENSE
+ * @version  GIT: 1.0.0 https://github.com/panchalmukundak/tacnix/main/
+ * @link     https://tacnix.com
  * @var      DEFAULT_TIMEZONE - Default timezone of application is made in India.
  * @var      ENVIRONMENT - Set DEVELOPMENT, MAINTENANCE, or LIVE. Current = ENVIRONMENT.
  */

@@ -5,8 +5,8 @@
  * @category Main Index Page
  * @package  Tacnix
  * @author   Mukunda Pancal <hello@tacnix.com>
- * @license  Apache License 2.0 https://github.com/panchal-mukunda-k/tacnix/blob/main/LICENSE
- * @version  GIT: 1.0.0 https://www.github.com/tacnix/main/
+ * @license  Apache License 2.0 https://github.com/panchalmukundak/tacnix/blob/main/LICENSE
+ * @version  GIT: 1.0.0 https://github.com/panchalmukundak/tacnix/main/
  * @link     https://tacnix.com
  */
 

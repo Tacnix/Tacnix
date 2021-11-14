@@ -1,5 +1,18 @@
 <?php
 
+/**
+ * Functions
+ *
+ * @category Functions
+ * @package  Tacnix
+ * @author   Mukunda Pancal <hello@tacnix.com>
+ * @license  Apache License 2.0 https://github.com/panchalmukundak/tacnix/blob/main/LICENSE
+ * @version  GIT: 1.0.0 https://github.com/panchalmukundak/tacnix/main/
+ * @link     https://tacnix.com
+ * @var      DEFAULT_TIMEZONE - Default timezone of application is made in India.
+ *
+ */
+
 function cleanurl() {
 
   // $get = $_GET['go'];
