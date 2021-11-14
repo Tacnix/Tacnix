@@ -31,12 +31,14 @@
 
 
 
- THEME COLORS: 3F5EA4, E5B348, 385FCD, 14BFB5
+ THEME COLORS: 3F5EA4, E5B348, 385FCD, 14BFB5, DARK: 96C7C1, LIGHT: 678983
+
+ GRADIANT: B0CB1F, 97AE1C, 75861C, 6A7A14, 434D0C || 788E07
 -------------------------------------------------------------*/
 :root, :root .v-light {
   --bg-color: #f9f9f9;
   --assistant-color: #e6e6e6;
-  --theme-color: #B0CB1F;
+  --theme-color: #97AE1C;
   --font-color: #000;
   --heading-color: #000;
   --border-color: #bebebe;
@@ -48,7 +50,7 @@
 :root .v-dark, :root .v-dark-head {
   --bg-color: #000;
   --assistant-color: #101010;
-  --theme-color: #B0CB1F;
+  --theme-color: #97AE1C;
   --font-color: #bbb;
   --heading-color: #fff;
   --border-color: rgba(255, 255, 255, 0.07);

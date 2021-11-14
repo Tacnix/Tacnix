@@ -59,7 +59,7 @@ function menu() {
   <div class="extend-container d-flex w-100 align-items-baseline justify-content-between align-items-end">
     <div class="inner-header p-relative">
       <div class="main-logo">
-        <a href="?p=home" data-dsn="parallax"><img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo.png" alt="tacnix" /><img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo-dark.png" alt="tacnix" /></a>
+        <a href="?request=<?=customSalt(64)?>&content=home" data-dsn="parallax"><img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo.png" alt="<?=title?>" /><img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo-dark.png" alt="tacnix" /></a>
       </div>
     </div>
     <div class="menu-icon d-flex align-items-baseline">
@@ -77,11 +77,11 @@ function menu() {
     <nav class="accent-menu dsn-container main-navigation p-absolute  w-100  d-flex align-items-baseline ">
       <div class="menu-cover-title">Menu</div>
       <ul class="extend-container p-relative d-flex flex-column justify-content-center h-100">
-        <li><a href="?p=about"><span class="dsn-title-menu">About</span><span class="dsn-meta-menu">01</span><span class="dsn-bg-arrow"></span></a></li>
-        <li><a href="?p=services"><span class="dsn-title-menu">Services</span><span class="dsn-meta-menu">02</span><span class="dsn-bg-arrow"></span></a></li>
-        <li><a href="?p=portfolio"><span class="dsn-title-menu">Portfolio</span><span class="dsn-meta-menu">03</span><span class="dsn-bg-arrow"></span></a></li>
-        <li><a href="?p=blog"><span class="dsn-title-menu">Blog</span><span class="dsn-meta-menu">04</span><span class="dsn-bg-arrow"></span></a></li>
-        <li><a href="?p=contact" class="user-no-selection"><span class="dsn-title-menu">Contact</span><span class="dsn-meta-menu">05</span><span class="dsn-bg-arrow"></span></a></li>
+        <li><a href="?request=<?=customSalt(64)?>&content=about"><span class="dsn-title-menu">About</span><span class="dsn-meta-menu">01</span><span class="dsn-bg-arrow"></span></a></li>
+        <li><a href="?request=<?=customSalt(64)?>&content=services"><span class="dsn-title-menu">Services</span><span class="dsn-meta-menu">02</span><span class="dsn-bg-arrow"></span></a></li>
+        <li><a href="?request=<?=customSalt(64)?>&content=portfolio"><span class="dsn-title-menu">Portfolio</span><span class="dsn-meta-menu">03</span><span class="dsn-bg-arrow"></span></a></li>
+        <li><a href="?request=<?=customSalt(64)?>&content=blog"><span class="dsn-title-menu">Blog</span><span class="dsn-meta-menu">04</span><span class="dsn-bg-arrow"></span></a></li>
+        <li><a href="?request=<?=customSalt(64)?>&content=contact" class="user-no-selection"><span class="dsn-title-menu">Contact</span><span class="dsn-meta-menu">05</span><span class="dsn-bg-arrow"></span></a></li>
       </ul>
       <div class="container-content  p-absolute h-100 left-60 d-flex flex-column justify-content-center">
         <div class="nav__info">
