@@ -55,6 +55,11 @@ $separator = array(
 define('lang', 'en-US');
 
 define('__ENV__',  'DEVELOPMENT');
+// const __ENV__ = 'DEVELOPMENT';
+
+// Defining manually "default timezone" constant.
+// Add the value into the manually defined "timezone" constant.
+const DEFAULT_TIMEZONE = 'Asia/Kolkata';
 
 // Library & Binary defined with base path.
 define('library', path . ds . 'library');

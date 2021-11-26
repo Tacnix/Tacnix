@@ -42,18 +42,14 @@ function cleanurl() {
 }
 
 function __timezone($value) {
-  // Defining manually "default timezone" constant.
-  // Add the value into the manually defined "timezone" constant.
-  const 'DEFAULT_TIMEZONE', $value;
-  // define('DEFAULT_TIMEZONE', $value);
   // Check the funtion is exist and set the "default timezone" to the function.
   if (function_exists('date_default_timezone_set')) {
     // Set the defined constant to the prebuilt function.
-    date_default_timezone_set('DEFAULT_TIMEZONE');
+    date_default_timezone_set($value);
   }
 }
 
-// __timezone ('Asia/Calcutta');
+__timezone ('Asia/Kolkata');
 
 
 

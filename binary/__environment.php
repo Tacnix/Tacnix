@@ -11,9 +11,9 @@
  */
 
 // OWNER DETAILS
-define('SITE_NAME', '&lt;/Tacnix&gt;');
-define('SITE_TAG',  '&lt;/tacnix&gt;');
-define('SITE_LINK', 'https://tacnix.com/');
+const SITE_NAME = '&lt;/Tacnix&gt;';
+const SITE_TAG = '&lt;/Tacnix&gt;';
+const SITE_LINK = 'https://tacnix.com/';
 
 // AUTHOR DETAILS
 define('AUTH_NAME', 'Panchal Mukunda K');
