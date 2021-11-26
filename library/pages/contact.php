@@ -95,12 +95,10 @@
                             <li>
                                 <h5 class="title-block mb-15">Follow Us</h5>
                                 <div class="social-item over-hidden">
-                                    <a class="link-hover" data-hover-text="Instagram." href="<?=instagram?>"
-                                        target="_blank" rel="nofollow">Instagram.</a>
+                                    <a class="link-hover" data-hover-text="Instagram." href="<?=twitter?>" target="_blank" rel="nofollow">Twitter</a>
                                 </div>
                                 <div class="social-item over-hidden">
-                                    <a class="link-hover" data-hover-text="Facebook." href="<?=facebook?>"
-                                        target="_blank" rel="nofollow">Facebook.</a>
+                                    <a class="link-hover" data-hover-text="Facebook." href="<?=facebook?>" target="_blank" rel="nofollow">Facebook</a>
                                 </div>
                             </li>
                         </ul>
@@ -146,4 +144,4 @@
 
 </div>
 
-<?php if (function_exists(homepage_footer())) { homepage_footer(); } ?>
+<?php if (function_exists(_footer())) { _footer(); } ?>

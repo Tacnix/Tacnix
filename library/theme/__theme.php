@@ -6,7 +6,7 @@ if (file_exists(theme . ds . '__themeFunction.php'))
 if (file_exists(theme . ds . '_head.php'))
 { include (theme . ds . '_head.php'); }
 
-$page = htmlspecialchars($_GET['content']);
+$page = htmlspecialchars($_GET['page']);
 $projects = htmlspecialchars($_GET['get']);
 
 ?>

@@ -217,4 +217,4 @@
     </div>
 </div>
 
-<?php if (function_exists(homepage_footer())) { homepage_footer(); } ?>
+<?php if (function_exists(_footer())) { _footer(); } ?>

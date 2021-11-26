@@ -11,8 +11,8 @@
  */
 
 // OWNER DETAILS
-define('SITE_NAME', 'Tacnix');
-define('SITE_TAG',  'tacnix');
+define('SITE_NAME', '&lt;/Tacnix&gt;');
+define('SITE_TAG',  '&lt;/tacnix&gt;');
 define('SITE_LINK', 'https://tacnix.com/');
 
 // AUTHOR DETAILS
@@ -26,7 +26,7 @@ define('DEV_TAG',  'Panchal_Mukunda_K');
 define('DEV_LINK', 'https://developers.tacnix.com/');
 
 //SITE DETAILS
-define('meta_title', '&lt;/t&gt;');
+define('meta_title', '&lt;/tacnix&gt;');
 define('meta_desc', 'We are a webste design & web development agency, that Crafting Digital Experiences');
 define('meta_keyword', 'tacnix, website design, web development, web hosting, domain registration, crm solutions, erp solutions, pos solutoins, ppc marketing');
 define('title', '&lt;/tacnix&gt;');

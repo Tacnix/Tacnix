@@ -1,96 +1,72 @@
 <div class="wrapper">
-
-    <!-- ========== Header Normal ========== -->
-
-    <header
-        class="header-page over-hidden p-relative header-padding-top header-padding-bottom background-section dsn-header-animation">
-        <div class="bg-circle-dotted"></div>
-        <div class="dsn-container">
-            <div
-                class="content-hero p-relative d-flex align-items-center text-center flex-column h-100 dsn-hero-parallax-title">
-                <p class="subtitle p-relative line-shap  ">
-                    <span class="pl-10 pr-10 background-main dsn-load-animate">OUR SERVICES</span>
-                </p>
-                <h1 class="title mt-30  dsn-load-animate">We are delivering beautiful <br> digital
-                    products for you.
-                </h1>
-            </div>
-        </div>
-    </header>
-    <!-- ========== End Header Normal ========== -->
-
-    <!-- ========== About Section ========== -->
-    <section class="about-services-page p-relative section-margin">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-8">
-                    <div class="box-left">
-                        <div class="section-title">
-                            <p class="sub-heading line-bg-left mb-25">What We Do</p>
-
-                            <h4>The good writers touch life often. The mediocre ones run a quick hand
-                                over her. The bad ones rape her and leave her for the flies.</h4>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="box-right">
-                        <ul>
-                            <li class="sub-heading line-bg-left mb-25">Our Services</li>
-                            <li class="mb-15">Brand Consulting</li>
-                            <li class="mb-15">Marketing Management</li>
-                            <li class="mb-15">Customer Insight</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- ========== End About Section ========== -->
-
-    <!-- ========== facts-section ========== -->
-    <div class="facts-section p-relative   section-margin over-hidden">
-        <div class="bg-circle-dotted"></div>
-        <div class="bg-circle-dotted bg-circle-dotted-right"></div>
-
-        <div class="container">
-            <div class="d-grid grid-lg-4 grid-sm-2">
-                <div class="facts-item">
-                    <div class="text-center p-relative">
-                        <span class="number">99</span>
-                        <h6 class="sm-title-block v-middle w-100">Happy Clients</h6>
-                    </div>
-                </div>
-
-                <div class="facts-item">
-                    <div class="text-center p-relative">
-                        <span class="number">57</span>
-                        <h6 class="sm-title-block v-middle w-100">Work Completed</h6>
-                    </div>
-                </div>
-
-                <div class="facts-item">
-                    <div class="text-center p-relative">
-                        <span class="number">51</span>
-                        <h6 class="sm-title-block v-middle w-100">Working hours were spent</h6>
-                    </div>
-                </div>
-
-                <div class="facts-item">
-                    <div class="text-center p-relative">
-                        <span class="number">87</span>
-                        <h6 class="sm-title-block v-middle w-100">Succeeded Projects</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <header class="header-page over-hidden p-relative header-padding-top header-padding-bottom background-section dsn-header-animation">
+    <div class="bg-circle-dotted"></div>
+    <div class="dsn-container">
+      <div class="content-hero p-relative d-flex align-items-center text-center flex-column h-100 dsn-hero-parallax-title">
+        <p class="subtitle p-relative line-shap"><span class="pl-10 pr-10 background-main dsn-load-animate">OUR SERVICES</span></p>
+        <h1 class="title mt-30  dsn-load-animate">We are delivering beautiful <br> digital products for you.</h1>
+      </div>
     </div>
-    <!-- ========== end facts-section ========== -->
+  </header>
 
-    <!-- ========== box-gallery-vertical image left ========== -->
+  <section class="about-services-page p-relative section-margin">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="box-left">
+            <div class="section-title">
+              <p class="sub-heading line-bg-left mb-25">What We Do</p>
+              <h4>The good writers touch life often. The mediocre ones run a quick hand over her. The bad ones rape her and leave her for the flies.</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box-right">
+            <ul>
+              <li class="sub-heading line-bg-left mb-25">Our Services</li>
+              <li class="mb-15">Brand Consulting</li>
+              <li class="mb-15">Marketing Management</li>
+              <li class="mb-15">Customer Insight</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="facts-section p-relative   section-margin over-hidden">
+    <div class="bg-circle-dotted"></div>
+    <div class="bg-circle-dotted bg-circle-dotted-right"></div>
+    <div class="container">
+      <div class="d-grid grid-lg-4 grid-sm-2">
+        <div class="facts-item">
+          <div class="text-center p-relative">
+            <span class="number">99</span>
+            <h6 class="sm-title-block v-middle w-100">Happy Clients</h6>
+          </div>
+        </div>
+        <div class="facts-item">
+          <div class="text-center p-relative">
+            <span class="number">57</span>
+            <h6 class="sm-title-block v-middle w-100">Work Completed</h6>
+          </div>
+        </div>
+        <div class="facts-item">
+          <div class="text-center p-relative">
+            <span class="number">51</span>
+            <h6 class="sm-title-block v-middle w-100">Working hours were spent</h6>
+          </div>
+        </div>
+        <div class="facts-item">
+          <div class="text-center p-relative">
+            <span class="number">87</span>
+            <h6 class="sm-title-block v-middle w-100">Succeeded Projects</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <div class="box-gallery-vertical box-gallery-content over-hidden background-section section-padding"
         data-dsn-animate="section" data-dsn-duration="100%">
         <div class="container">
@@ -100,7 +76,7 @@
                         <div class="img-container h-100" data-dsn-grid="move-up">
                             <img class="cover-bg-img " data-dsn-speed="2"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                data-dsn-src="<?=img?>/rachel-claire.png" alt="">
+                                data-dsn-src="<?=img?>/rachel-claire.jpg" alt="">
                         </div>
 
                     </div>
@@ -111,11 +87,8 @@
                     <div
                         class="box-info h-100 d-flex align-items-center pl-30  pt-50 pb-50 background-section ">
                         <div class="box-info-inner">
-                            <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1"
-                                data-dsn-duration="170%" data-dsn-move="0%">
-                                Diesel
-                            </div>
-                            <div class="d-flex text-left flex-column align-items-start ">
+                            <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1" data-dsn-duration="170%" data-dsn-move="0%">Diesel</div>
+                            <div class="d-flex text-left flex-column align-items-start">
                                 <div class="mb-30">
                                     <p class="sub-heading line-bg-left mb-15">We make digital</p>
                                     <h2 class="section-title  title-cap">Make better products make products better</h2>
@@ -151,10 +124,8 @@
 
                             <div class="service-lest-item p-relative d-flex border-top">
 
-                                <div
-                                    class="icon background-main p-15 d-flex align-items-center justify-content-center">
-                                    <svg enable-background="new 0 0 300 300" viewBox="0 0 300 300"
-                                        xmlns="http://www.w3.org/2000/svg">
+                                <div class="icon background-main p-15 d-flex align-items-center justify-content-center">
+                                    <svg enable-background="new 0 0 300 300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
                                         <g>
                                           <path d="m164.804 62.461c2.478-.344 4.207-2.632 3.863-5.11s-2.632-4.207-5.11-3.862c-2.478.344-4.207 2.632-3.862 5.11.344 2.477 2.632 4.206 5.109 3.862z" />
                                           <path d="m86 44c2.209 0 4-1.789 4-4v-12c0-2.209-1.791-4-4-4s-4 1.791-4 4v12c0 2.211 1.791 4 4 4z" />
@@ -169,8 +140,7 @@
                                 </div>
 
                                 <div class="content d-flex flex-column justify-content-center">
-                                    <h4 class="title-block mb-15">Best Practices from Industry Experts
-                                    </h4>
+                                    <h4 class="title-block mb-15">Best Practices from Industry Experts</h4>
                                     <p>We’ve designed a culture that allows our stewards to assimilate with our clients and bring.</p>
                                 </div>
                             </div>
@@ -452,4 +422,4 @@
     <!-- ========== End next page ========== -->
 </div>
 
-<?php if (function_exists(homepage_footer())) { homepage_footer(); } ?>
+<?php if (function_exists(_footer())) { _footer(); } ?>
