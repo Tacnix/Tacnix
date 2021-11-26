@@ -122,3 +122,4 @@ Stack trace:
 #5 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
 #6 {main}
   thrown in C:\MAMP\htdocs\workspace\tacnix\library\theme\__themeFunction.php on line 3
+[26-Nov-2021 08:27:12 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\MAMP\htdocs\workspace\tacnix\library\theme\__theme.php on line 9

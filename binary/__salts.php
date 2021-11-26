@@ -1,4 +1,5 @@
 <?php
+namespace Tacnix\Salts;
 
 /* =================================
    CUSTOM HASH
