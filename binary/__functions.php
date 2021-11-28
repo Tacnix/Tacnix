@@ -1,9 +1,5 @@
 <?php
-namespace Tacnix\Functions;
-
 /**
- * Functions
- *
  * @category Functions
  * @package  Tacnix
  * @author   Mukunda Pancal <hello@tacnix.com>
@@ -11,12 +7,29 @@ namespace Tacnix\Functions;
  * @version  GIT: 1.0.0 https://github.com/panchalmukundak/tacnix/main/
  * @link     https://tacnix.com
  * @var      DEFAULT_TIMEZONE - Default timezone of application is made in India.
- *
  */
 
-function cleanurl() {
+ function __customErrorReporting($value) {
+     if (__ENV__ === $value) { // DEVELOPMENT
+         error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED);
+         ini_set('display_errors', 'On');
+         ini_set('log_errors', 'On');
+         ini_set('error_log', path . ds . 'error.log');
+     } else if (__ENV__ === $value) { // MAINTENANCE
+         error_reporting(E_ALL);
+         ini_set('display_errors', 'Off');
+         ini_set('log_errors', 'On');
+         ini_set('error_log', path . ds . 'error.log');
+     } else if (__ENV__ === $value) { // LIVE
+         error_reporting(E_ALL);
+         ini_set('display_errors', 'Off');
+         ini_set('log_errors', 'On');
+         ini_set('error_log', path . ds . 'error.log');
+     }
+ }
 
-  // $get = $_GET['go'];
+
+function __cleanurl() {
 
   if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') {
       $url = "https://";
@@ -31,14 +44,6 @@ function cleanurl() {
       return $url;
   }
 
-  if (cleanurl() === cleanurl()) {
-      // header("Location: http://localhost/workspace/tacnix2020/?go=home", true, 301);
-      // exit();
-  } else {
-      // header("Location: " .cleanurl(), true, 301);
-      // exit();
-  }
-
 }
 
 function __timezone($value) {
@@ -49,17 +54,36 @@ function __timezone($value) {
   }
 }
 
-__timezone ('Asia/Kolkata');
+function db_connect() {
+  $mysqli = new mysqli($host, $user, $pass, $dbname);
 
+  // Check connection
+  if ($mysqli -> connect_errno) {
+    echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+    exit();
+  }
+}
 
+function db_close() {$mysqli -> close();}
 
-function posts() {
+function db_query($value) {
+  db_connect();
+  // Perform query
+  if ($result = $mysqli -> query($value)) {
+    echo /*"Returned rows are: " . */ $result -> num_rows;
+    // Free result set
+    $result -> free_result();
+  }
+  db_close();
+}
+
+function __posts() {
 
 }
 
 
 
-function contactform() {
+function __contactform() {
   /*
    * CONFIGURE EVERYTHING HERE
    */

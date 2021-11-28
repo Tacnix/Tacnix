@@ -216,18 +216,22 @@
         </div>
         <div class="col-12">
           <div class="box-bottom pt-50 border-top mt-50">
-            <div class="d-grid d-grid-no-space grid-md-3 grid-sm-1">
+            <div class="d-grid d-grid-no-space grid-md-4 grid-sm-1">
+              <div class="item d-flex align-items-center">
+                <i class="fas fa-check theme-color"></i>
+                <h4 class="title-block ml-15">ERP/CRM/PoS Solution</h4>
+              </div>
               <div class="item d-flex align-items-center">
                 <i class="fas fa-check theme-color"></i>
                 <h4 class="title-block ml-15">Web Design &amp; Development</h4>
               </div>
               <div class="item d-flex align-items-center">
                 <i class="fas fa-check theme-color"></i>
-                <h4 class="title-block ml-15">Domain &amp; Hosting Solution</h4>
+                <h4 class="title-block ml-15">Domain &amp; Hosting Solutions</h4>
               </div>
               <div class="item d-flex align-items-center">
                 <i class="fas fa-check theme-color"></i>
-                <h4 class="title-block ml-15">ERP/CRM/PoS Solution</h4>
+                <h4 class="title-block ml-15">Branding &amp; Online Marketing</h4>
               </div>
             </div>
           </div>
@@ -660,7 +664,7 @@
       data-dsn-option='{"slidesPerView":4,"spaceBetween":0,"centeredSlides":false,"autoplay":true }'
       data-dsn-title="our clients">
     <div class="container mb-70 d-flex text-left flex-column align-items-start">
-      <h2 class="section-title">Your successful, <br> our reputation</h2>
+      <h2 class="section-title">Your success, <br> our reputation</h2>
       <p class="sub-heading line-shap line-shap-after mt-15 text-uppercase"><span class="line-bg-left"> Our clients</span></p>
     </div>
     <div class="container">

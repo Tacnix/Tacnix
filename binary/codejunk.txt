@@ -1,0 +1,8 @@
+
+  if (cleanurl() === cleanurl()) {
+      // header("Location: http://localhost/workspace/tacnix2020/?go=home", true, 301);
+      // exit();
+  } else {
+      // header("Location: " .cleanurl(), true, 301);
+      // exit();
+  }

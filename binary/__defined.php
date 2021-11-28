@@ -1,32 +1,24 @@
-<?php
-
+MYSQLi_<?php
 /**
- * Defined
- *
  * @category Defined
  * @package  Tacnix
  * @author   Mukunda Pancal <hello@tacnix.com>
  * @license  Apache License 2.0 https://github.com/panchalmukundak/tacnix/blob/main/LICENSE
  * @version  GIT: 1.0.0 https://github.com/panchalmukundak/tacnix/main/
  * @link     https://tacnix.com
- *
  */
 
-/**
- * @param MYSQL_HOST - 'MYSQL_HOST' is
- * host of the server where the files are stored.
- */
-define( 'MYSQL_LANGUAGE', 'en' );
-define( 'MYSQL_HOSTNAME', '' );
-define( 'MYSQL_USERNAME', '' );
-define( 'MYSQL_PASSWORD', '' );
-define( 'MYSQL_DATABASE', '' );
-define( 'MYSQL_CHARSET', 'utf8' );
-define( 'MYSQL_PORT', '80' );
-define( 'DB_PREFIX', 'db_' );
+const MYSQLi_LANGUAGE = 'en';
+const MYSQLi_HOSTNAME = 'localhost';
+const MYSQLi_USERNAME = 'tacnix';
+const MYSQLi_PASSWORD = 'tacnix';
+const MYSQLi_DATABASE = 'tacnix';
+const MYSQLi_CHARSET = 'utf8';
+const MYSQLi_PORT = '80';
+const MYSQLi_DB_PREFIX = 'tac_';
 
  // Use PRE-DEFINED prefix for the database, else use SYS by default.
-define( 'TABLE_PREFIX', 'tbl_' );
+const MYSQLi_TABLE_PREFIX = 'tbl_';
 
 // Output $sep[amershand] = &
 $separator = array(
@@ -50,16 +42,6 @@ $separator = array(
     'percent' => '%',
     'hash' => '#'
 );
-
-// Set the default language of the site.
-define('lang', 'en-US');
-
-define('__ENV__',  'DEVELOPMENT');
-// const __ENV__ = 'DEVELOPMENT';
-
-// Defining manually "default timezone" constant.
-// Add the value into the manually defined "timezone" constant.
-const DEFAULT_TIMEZONE = 'Asia/Kolkata';
 
 // Library & Binary defined with base path.
 define('library', path . ds . 'library');

@@ -1,0 +1,21 @@
+[28-Nov-2021 14:33:19 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function db_connect(), 0 passed in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 70 and exactly 4 expected in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:57
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php(70): db_connect()
+#1 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('select * from p...')
+#2 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#4 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 57
+[28-Nov-2021 14:34:37 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:34:51 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:34:52 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:34:52 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:34:52 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:34:53 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:34:53 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:40:53 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:40:54 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:40:54 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:40:54 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:40:54 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[28-Nov-2021 14:40:55 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58

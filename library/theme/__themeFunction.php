@@ -42,7 +42,7 @@ function cursorpage() {
 <?php
 }
 
-function socialnetwork() {
+function sociallinks() {
   ?>
 <div class="social-side social-network d-flex align-items-center ">
   <div class="icon" data-dsn="parallax"><i class="fa fa-share-alt" aria-hidden="true"></i></div>
@@ -56,7 +56,7 @@ function socialnetwork() {
   <?php
 }
 
-function loader() {
+function preloader() {
   ?>
 <div class="preloader">
   <span class="percent ">0</span>
@@ -70,7 +70,7 @@ function loader() {
   <?php
 }
 
-function menu() {
+function mainmenu() {
   ?>
 <div class="site-header dsn-container dsn-load-animate">
   <div class="extend-container d-flex w-100 align-items-baseline justify-content-between align-items-end">

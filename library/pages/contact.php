@@ -38,7 +38,7 @@
                         </div>
                         <p class="mb-30">It’s all about the humans behind a brand and those experiencing it, we’re right there. In the middle.</p>
 
-                        <form id="contact-form" class="form" method="post" action="contactform.php" data-toggle="validator">
+                        <form id="contact-form" class="form" method="post" action="contactscript.php" data-toggle="validator">
                             <div class="messages"></div>
                             <div class="input__wrap controls">
                                 <div class="form-group">

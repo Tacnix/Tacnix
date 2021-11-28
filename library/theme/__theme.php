@@ -8,14 +8,11 @@ if (file_exists(theme . ds . '_head.php'))
 
 $page = htmlspecialchars($_GET['page']);
 $projects = htmlspecialchars($_GET['get']);
-
 ?>
-
-<body class="v-dark dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
-
+<body class="v-light dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
 <?php
-if (function_exists(loader())) { loader(); }
-if (function_exists(menu())) { menu(); }
+if (function_exists(preloader())) {preloader();}
+if (function_exists(mainmenu())) {mainmenu();}
 
 if ($page === TRUE) {
   if (file_exists(theme . ds . '_body.php'))
@@ -33,7 +30,7 @@ else {
 
 if (function_exists(scrolltop())) { scrolltop(); }
 if (function_exists(cursorpage())) { cursorpage(); }
-if (function_exists(socialnetwork())) { socialnetwork(); }
+if (function_exists(sociallinks())) { sociallinks(); }
 ?>
   <div class="dsn-paginate-right-page"></div>
   <div class="line-border-style w-100 h-100"></div>
