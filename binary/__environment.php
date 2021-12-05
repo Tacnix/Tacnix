@@ -49,3 +49,38 @@ const dribbble = 'https://dribbble.com/Tacnix';
 const twitter = 'https://twitter.com/Tacnix1';
 const behance = 'https://www.behance.net/Tacnix';
 const facebook = 'https://www.facebook.com/tacnix/';
+
+const MYSQLi_LANGUAGE = 'en';
+const MYSQLi_HOSTNAME = 'localhost';
+const MYSQLi_USERNAME = 'tacnix';
+const MYSQLi_PASSWORD = 'tacnix';
+const MYSQLi_DATABASE = 'tacnix';
+const MYSQLi_CHARSET = 'utf8';
+const MYSQLi_PORT = '80';
+const MYSQLi_DB_PREFIX = 'tac_';
+
+ // Use PRE-DEFINED prefix for the database, else use SYS by default.
+const MYSQLi_TABLE_PREFIX = 't_';
+
+// Output $sep[amershand] = &
+$separator = array(
+    'at' => '@',
+    'doller' => '$',
+    'comma' => ',',
+    'pipe' => '|',
+    'dot' => '.',
+    'acute' => '`',
+    'quote_single' => "'",
+    'quote' => '"',
+    'question_mark' => '?',
+    'slash' => '/',
+    'colon' => ':',
+    'semicolon' => ';',
+    'equal' => '=',
+    'plus' => '+',
+    'underscore' => '_',
+    'hyphen' => '-',
+    'amershand' => '&',
+    'percent' => '%',
+    'hash' => '#'
+);

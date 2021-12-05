@@ -55,13 +55,24 @@ function __timezone($value) {
 }
 
 function db_connect() {
-  $mysqli = new mysqli($host, $user, $pass, $dbname);
+  global $mysqli;
+  $mysqli = new mysqli(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE);
 
   // Check connection
   if ($mysqli -> connect_errno) {
     echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
     exit();
   }
+
+  // $_mysqli = mysqli_connect(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE);
+  //
+  // // Check connection
+  // if (mysqli_connect_errno()) {
+  //   echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  //   exit();
+  // }
+
+
 }
 
 function db_close() {$mysqli -> close();}

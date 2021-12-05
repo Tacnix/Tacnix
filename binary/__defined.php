@@ -8,40 +8,6 @@ MYSQLi_<?php
  * @link     https://tacnix.com
  */
 
-const MYSQLi_LANGUAGE = 'en';
-const MYSQLi_HOSTNAME = 'localhost';
-const MYSQLi_USERNAME = 'tacnix';
-const MYSQLi_PASSWORD = 'tacnix';
-const MYSQLi_DATABASE = 'tacnix';
-const MYSQLi_CHARSET = 'utf8';
-const MYSQLi_PORT = '80';
-const MYSQLi_DB_PREFIX = 'tac_';
-
- // Use PRE-DEFINED prefix for the database, else use SYS by default.
-const MYSQLi_TABLE_PREFIX = 'tbl_';
-
-// Output $sep[amershand] = &
-$separator = array(
-    'at' => '@',
-    'doller' => '$',
-    'comma' => ',',
-    'pipe' => '|',
-    'dot' => '.',
-    'acute' => '`',
-    'quote_single' => "'",
-    'quote' => '"',
-    'question_mark' => '?',
-    'slash' => '/',
-    'colon' => ':',
-    'semicolon' => ';',
-    'equal' => '=',
-    'plus' => '+',
-    'underscore' => '_',
-    'hyphen' => '-',
-    'amershand' => '&',
-    'percent' => '%',
-    'hash' => '#'
-);
 
 // Library & Binary defined with base path.
 define('library', path . ds . 'library');
