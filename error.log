@@ -19,3 +19,158 @@ Stack trace:
 [28-Nov-2021 14:40:54 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
 [28-Nov-2021 14:40:54 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
 [28-Nov-2021 14:40:55 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[05-Dec-2021 15:00:35 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 58
+[05-Dec-2021 15:03:59 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('select * from p...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:05:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:05:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:05:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:05:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:05:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:05:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:05:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:05:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:05:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:06:39 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:06:40 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:07:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:07:23 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 15:07:23 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 17:26:43 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:82
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(31): db_query('SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 82
+[05-Dec-2021 17:29:02 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:78
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(37): db_close()
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 78
+[05-Dec-2021 17:29:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:78
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(37): db_close()
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 78
+[05-Dec-2021 17:32:20 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:77
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(37): db_close()
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 77
+[05-Dec-2021 17:32:21 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:77
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(37): db_close()
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 77
+[05-Dec-2021 17:32:52 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function db_close() in C:\MAMP\htdocs\workspace\tacnix\binary\__core.php:37
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require()
+#1 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#2 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__core.php on line 37
+[05-Dec-2021 17:38:10 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function db_connect(), 0 passed in C:\MAMP\htdocs\workspace\tacnix\binary\__core.php on line 30 and exactly 4 expected in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:57
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\__core.php(30): db_connect()
+#1 C:\MAMP\htdocs\workspace\tacnix\__boot.php(22): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 57
+[09-Dec-2021 19:35:29 Asia/Kolkata] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 73

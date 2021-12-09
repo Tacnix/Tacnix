@@ -55,14 +55,23 @@ function __timezone($value) {
 }
 
 function db_connect() {
-  global $mysqli;
-  $mysqli = new mysqli(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE);
+  // $mysqli = mysqli_connect(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE);
+  //
+  // // Check connection
+  // if (mysqli_connect_errno()) {
+  // echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  // exit();
+  //
+  //
+  // $user = 'root';
+  // $password = 'root';
+  // $db = 'inventory';
+  // $host = 'localhost';
+  // $port = 3306;
 
-  // Check connection
-  if ($mysqli -> connect_errno) {
-    echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
-    exit();
-  }
+  $link = mysqli_init();
+  mysqli_connect(host, username, password, dbname, port, socket)
+  // }
 
   // $_mysqli = mysqli_connect(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE);
   //
@@ -75,17 +84,15 @@ function db_connect() {
 
 }
 
-function db_close() {$mysqli -> close();}
+// function db_close() {$mysqli -> close();}
 
 function db_query($value) {
-  db_connect();
   // Perform query
   if ($result = $mysqli -> query($value)) {
     echo /*"Returned rows are: " . */ $result -> num_rows;
     // Free result set
     $result -> free_result();
   }
-  db_close();
 }
 
 function __posts() {

@@ -27,8 +27,14 @@ __customErrorReporting(__ENV__);
 // __getip();
 // __logdata();
 // db_connect($host, $user, $pass, $dbname);
-db_query('SELECT * FROM `projects`');
-
+if (function_exists(db_connect())) {
+  db_connect();
+  echo "Database connected successfully!";
+} else {
+  echo "\n Error in connection!";
+}
+// db_query('SELECT * FROM `projects`');
+// db_close();
 
 if (file_exists(library . ds . 'template.php')) { require library . ds . 'template.php'; }
 ?>

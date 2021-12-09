@@ -9,7 +9,7 @@ if (file_exists(theme . ds . '_head.php'))
 $page = htmlspecialchars($_GET['page']);
 $projects = htmlspecialchars($_GET['get']);
 ?>
-<body class="v-light dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
+<body class="v-dark dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
 <?php
 if (function_exists(preloader())) {preloader();}
 if (function_exists(mainmenu())) {mainmenu();}
