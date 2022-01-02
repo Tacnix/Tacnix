@@ -1,20 +1,16 @@
 <!-- ========== Header Normal ========== -->
-<header
-    class="header-page over-hidden p-relative header-padding-top header-padding-bottom border-bottom dsn-header-animation">
+<header class="header-page over-hidden p-relative header-padding-top header-padding-bottom border-bottom dsn-header-animation">
     <div class="bg-circle-dotted"></div>
     <div class="dsn-container">
         <div class="content-hero p-relative d-flex flex-column h-100 dsn-hero-parallax-title">
             <p class="subtitle p-relative line-shap  line-shap-after">
                 <span class="pl-10 pr-10 background-main dsn-load-animate">DESIGN STUDIO</span>
             </p>
-            <h1 class="title mt-30 dsn-load-animate text-transform-upper">
-                We Digital Creative <br> Agency
-            </h1>
+            <h1 class="title mt-30 dsn-load-animate text-transform-upper">We Digital Creative <br> Agency</h1>
         </div>
     </div>
 </header>
 <!-- ========== End Header Normal ========== -->
-
 
 <div class="wrapper">
     <div class="image-head p-relative">

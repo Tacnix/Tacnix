@@ -55,23 +55,19 @@ function __timezone($value) {
 }
 
 function db_connect() {
-  // $mysqli = mysqli_connect(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE);
-  //
-  // // Check connection
-  // if (mysqli_connect_errno()) {
-  // echo "Failed to connect to MySQL: " . mysqli_connect_error();
-  // exit();
-  //
-  //
+  $mysqli = mysqli_connect(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE, MYSQLi_PORT, MYSQLi_SOCKET);
+
+  // Check connection
+  if (mysqli_connect_errno()) {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  exit();
+  }
+
   // $user = 'root';
   // $password = 'root';
   // $db = 'inventory';
   // $host = 'localhost';
   // $port = 3306;
-
-  $link = mysqli_init();
-  mysqli_connect(host, username, password, dbname, port, socket)
-  // }
 
   // $_mysqli = mysqli_connect(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE);
   //
