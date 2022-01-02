@@ -95,8 +95,6 @@ function __posts() {
 
 }
 
-
-
 function __contactform() {
   /*
    * CONFIGURE EVERYTHING HERE

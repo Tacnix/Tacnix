@@ -1,4 +1,4 @@
-MYSQLi_<?php
+<?php
 /**
  * @category Defined
  * @package  Tacnix
