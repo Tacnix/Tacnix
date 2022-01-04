@@ -54,29 +54,36 @@ function __timezone($value) {
   }
 }
 
-function db_connect() {
-  $mysqli = mysqli_connect(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE, MYSQLi_PORT, MYSQLi_SOCKET);
+function __mysqli() {
+  $lang = MYSQLi_LANGUAGE;
+  $host = MYSQLi_HOSTNAME;
+  $user = MYSQLi_USERNAME;
+  $pass = MYSQLi_PASSWORD;
+  $dbname = MYSQLi_DATABASE;
+  $charset = MYSQLi_CHARSET;
+  $port = MYSQLi_PORT;
+  $db_prefix = MYSQLi_DB_PREFIX;
+
+  // Create connection
+  $mysqli  = new mysqli($host, $user, $pass, $dbname);
 
   // Check connection
-  if (mysqli_connect_errno()) {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-  exit();
+  if ($mysqli->connect_error) {
+    die("Connection failed: " . $mysqli->connect_error);
   }
+  // echo "Connected successfully";
 
-  // $user = 'root';
-  // $password = 'root';
-  // $db = 'inventory';
-  // $host = 'localhost';
-  // $port = 3306;
+  /* Set the desired charset after establishing a connection */
+  $mysqli->set_charset(MYSQLi_CHARSET);
+  // printf("Success... %s\n", $mysqli->host_info);
 
-  // $_mysqli = mysqli_connect(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE);
-  //
-  // // Check connection
-  // if (mysqli_connect_errno()) {
-  //   echo "Failed to connect to MySQL: " . mysqli_connect_error();
-  //   exit();
-  // }
+  /* change default database to "world" */
+  $mysqli->select_db(MYSQLi_DATABASE);
 
+  /* get the name of the current default database */
+  // $result = $mysqli->query("SELECT DATABASE()");
+  // $row = $result->fetch_row();
+  // printf("Default database is %s.\n", $row[0]);
 
 }
 
@@ -91,9 +98,9 @@ function db_query($value) {
   }
 }
 
-function __posts() {
-
-}
+// function __posts() {
+//
+// }
 
 function __contactform() {
   /*

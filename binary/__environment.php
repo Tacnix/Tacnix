@@ -51,7 +51,7 @@ const behance = 'https://www.behance.net/Tacnix';
 const facebook = 'https://www.facebook.com/tacnix/';
 // host, username, password, dbname, port, socket
 const MYSQLi_LANGUAGE = 'en';
-const MYSQLi_HOSTNAME = '127.0.0.1';
+const MYSQLi_HOSTNAME = 'localhost';
 const MYSQLi_USERNAME = 'root';
 const MYSQLi_PASSWORD = 'root';
 const MYSQLi_DATABASE = 'tacnix';

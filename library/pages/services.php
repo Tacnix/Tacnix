@@ -342,8 +342,8 @@
                                     <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/team/1.jpg" alt="">
                                 </div>
                                 <div class="box-text">
-                                    <h4 class="title-block mb-10">Ahmed Shawky</h4>
-                                    <h5 class="theme-color">Co-Founder / Design</h5>
+                                    <h4 class="title-block mb-10">Mukunda Panchal</h4>
+                                    <h5 class="theme-color">Founder</h5>
 
                                     <ul class="box-social mt-15">
                                         <li data-dsn="parallax"><a href="#">FB</a></li>
@@ -364,8 +364,8 @@
                                     <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/team/2.jpg" alt="">
                                 </div>
                                 <div class="box-text">
-                                    <h4 class="title-block mb-10">HISHAM MEGAHED</h4>
-                                    <h5 class="theme-color">Co-Founder</h5>
+                                    <h4 class="title-block mb-10">Bhavana Panchal</h4>
+                                    <h5 class="theme-color">Owner</h5>
                                     <ul class="box-social mt-15">
                                         <li data-dsn="parallax"><a href="#">FB</a></li>
                                         <li data-dsn="parallax"><a href="#">TW</a></li>
@@ -385,8 +385,8 @@
                                     <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/team/3.jpg" alt="">
                                 </div>
                                 <div class="box-text">
-                                    <h4 class="title-block mb-10">JEREMY SMITH</h4>
-                                    <h5 class="theme-color">Creative Director</h5>
+                                    <h4 class="title-block mb-10">Namrata Madhu</h4>
+                                    <h5 class="theme-color">Co-Founder / Creative Director</h5>
                                     <ul class="box-social mt-15">
                                         <li data-dsn="parallax"><a href="#">FB</a></li>
                                         <li data-dsn="parallax"><a href="#">TW</a></li>
