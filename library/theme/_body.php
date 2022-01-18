@@ -38,6 +38,7 @@
         default:
             if (file_exists(pages . ds . 'home.php')) { include (pages . ds . 'home.php'); }
             elseif (file_exists(pages . ds . '404.php')) { include (pages . ds . '404.php'); }
+            // show blank page
           break;
       }
       ?>

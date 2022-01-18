@@ -55,17 +55,8 @@ function __timezone($value) {
 }
 
 function __mysqli() {
-  $lang = MYSQLi_LANGUAGE;
-  $host = MYSQLi_HOSTNAME;
-  $user = MYSQLi_USERNAME;
-  $pass = MYSQLi_PASSWORD;
-  $dbname = MYSQLi_DATABASE;
-  $charset = MYSQLi_CHARSET;
-  $port = MYSQLi_PORT;
-  $db_prefix = MYSQLi_DB_PREFIX;
-
   // Create connection
-  $mysqli  = new mysqli($host, $user, $pass, $dbname);
+  $mysqli  = new mysqli(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE);
 
   // Check connection
   if ($mysqli->connect_error) {
@@ -91,7 +82,7 @@ function __mysqli() {
 
 function db_query($value) {
   // Perform query
-  if ($result = $mysqli -> query($value)) {
+  if ($result = $mysqli->db_query($value)) {
     echo /*"Returned rows are: " . */ $result -> num_rows;
     // Free result set
     $result -> free_result();
