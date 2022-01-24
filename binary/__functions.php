@@ -9,18 +9,18 @@
  * @var      DEFAULT_TIMEZONE - Default timezone of application is made in India.
  */
 
- function __customErrorReporting($value) {
-     if (__ENV__ === $value) { // DEVELOPMENT
+ function __CustomErrorReporting($value) {
+     if (__ENV__ === "DEVELOPMENT") { // DEVELOPMENT
          error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED);
          ini_set('display_errors', 'On');
          ini_set('log_errors', 'On');
          ini_set('error_log', path . ds . 'error.log');
-     } else if (__ENV__ === $value) { // MAINTENANCE
+     } else if (__ENV__ === "MAINTENANCE") { // MAINTENANCE
          error_reporting(E_ALL);
          ini_set('display_errors', 'Off');
          ini_set('log_errors', 'On');
          ini_set('error_log', path . ds . 'error.log');
-     } else if (__ENV__ === $value) { // LIVE
+     } else if (__ENV__ === "LIVE") { // LIVE
          error_reporting(E_ALL);
          ini_set('display_errors', 'Off');
          ini_set('log_errors', 'On');
@@ -54,39 +54,37 @@ function __timezone($value) {
   }
 }
 
-function __mysqli() {
+function __mysqli_connect() {
   // Create connection
-  $mysqli  = new mysqli(MYSQLi_HOSTNAME, MYSQLi_USERNAME, MYSQLi_PASSWORD, MYSQLi_DATABASE);
+  $mysqli = mysqli_connect(host, user, pass, data);
 
-  // Check connection
-  if ($mysqli->connect_error) {
-    die("Connection failed: " . $mysqli->connect_error);
+  if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    exit();
   }
-  // echo "Connected successfully";
 
   /* Set the desired charset after establishing a connection */
-  $mysqli->set_charset(MYSQLi_CHARSET);
-  // printf("Success... %s\n", $mysqli->host_info);
-
-  /* change default database to "world" */
-  $mysqli->select_db(MYSQLi_DATABASE);
-
-  /* get the name of the current default database */
-  // $result = $mysqli->query("SELECT DATABASE()");
-  // $row = $result->fetch_row();
-  // printf("Default database is %s.\n", $row[0]);
+  $charset=mysqli_character_set_name($mysqli);
+  // echo "Default character set is: " . $charset;
 
 }
 
-// function db_close() {$mysqli -> close();}
-
-function db_query($value) {
-  // Perform query
-  if ($result = $mysqli->db_query($value)) {
-    echo /*"Returned rows are: " . */ $result -> num_rows;
-    // Free result set
-    $result -> free_result();
+function __mysqli_close() {
+  mysqli_close($mysqli);
   }
+
+function __mysqli_select($value) {
+
+  __mysqli_connect();
+
+  // Perform query
+  $result = mysqli_query($mysqli, $value);
+  if (!$result) {
+    echo "Returned rows are: " . mysqli_num_rows($result);
+    // Free result set
+    mysqli_free_result($result);
+  }
+  __mysqli_close($mysqli);
 }
 
 // function __posts() {

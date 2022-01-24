@@ -231,3 +231,247 @@ Stack trace:
 #0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
 #1 {main}
   thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 85
+[18-Jan-2022 18:48:29 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:85
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 85
+[18-Jan-2022 19:48:44 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:89
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 89
+[18-Jan-2022 19:49:28 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:89
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 89
+[18-Jan-2022 19:49:29 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:89
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 89
+[18-Jan-2022 19:49:30 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:89
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 89
+[18-Jan-2022 19:51:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:90
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 90
+[18-Jan-2022 19:51:05 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:90
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 90
+[18-Jan-2022 19:51:05 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:90
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 90
+[18-Jan-2022 19:51:05 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:90
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 90
+[18-Jan-2022 19:54:45 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[18-Jan-2022 19:54:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[18-Jan-2022 19:54:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[18-Jan-2022 19:54:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[18-Jan-2022 19:54:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): db_query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[18-Jan-2022 19:54:56 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function db_query() in C:\MAMP\htdocs\workspace\tacnix\test.php:48
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 48
+[18-Jan-2022 19:55:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): query('SHOW DATABASES')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[18-Jan-2022 20:07:29 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(48): query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[18-Jan-2022 20:08:53 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[18-Jan-2022 20:09:28 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[20-Jan-2022 14:41:29 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 17:19:05 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 17:19:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 17:19:33 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 17:19:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 17:19:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 17:19:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 17:19:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 17:19:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 17:19:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 17:19:40 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 17:21:19 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 19:19:31 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\test.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 52
+[23-Jan-2022 19:21:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): __get_('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[23-Jan-2022 19:22:27 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[23-Jan-2022 19:22:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[23-Jan-2022 19:23:53 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[23-Jan-2022 19:24:23 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[23-Jan-2022 19:27:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[23-Jan-2022 19:28:56 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[23-Jan-2022 19:29:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[23-Jan-2022 19:29:04 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[23-Jan-2022 19:29:05 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[23-Jan-2022 19:29:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[23-Jan-2022 19:30:56 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[24-Jan-2022 00:32:40 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[24-Jan-2022 00:32:59 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function db_query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[24-Jan-2022 00:33:30 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(52): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[24-Jan-2022 00:40:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:86
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(50): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[24-Jan-2022 00:42:33 Asia/Kolkata] PHP Warning:  Use of undefined constant result - assumed 'result' (this will throw an Error in a future version of PHP) in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 86
+[24-Jan-2022 00:42:33 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function free_result() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:92
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(50): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 92
+[24-Jan-2022 00:42:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php:94
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\test.php(50): db_query('SELECT * FROM `...')
+#1 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\__functions.php on line 94
+[24-Jan-2022 00:45:58 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function free_result() on string in C:\MAMP\htdocs\workspace\tacnix\test.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 65
+[24-Jan-2022 00:45:58 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function free_result() on string in C:\MAMP\htdocs\workspace\tacnix\test.php:65
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 65
+[24-Jan-2022 09:59:37 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\test.php on line 68

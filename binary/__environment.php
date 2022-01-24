@@ -49,16 +49,16 @@ const dribbble = 'https://dribbble.com/Tacnix';
 const twitter = 'https://twitter.com/Tacnix1';
 const behance = 'https://www.behance.net/Tacnix';
 const facebook = 'https://www.facebook.com/tacnix/';
-// host, username, password, dbname, port, socket
-const MYSQLi_LANGUAGE = 'en';
-const MYSQLi_HOSTNAME = 'localhost';
-const MYSQLi_USERNAME = 'root';
-const MYSQLi_PASSWORD = 'root';
-const MYSQLi_DATABASE = 'tacnix';
-const MYSQLi_CHARSET = 'utf8';
-const MYSQLi_PORT = '3306' /*'80'*/;
-const MYSQLi_DB_PREFIX = 'tac_';
-const MYSQLi_SOCKET = '/tmp/mysql.sock';
+
+// MySQLi host, username, password, dbname, port, socket
+const host = 'localhost';
+const user = 'root';
+const pass = 'root';
+const data = 'tacnix';
+const char = 'utf8';
+const port = '3306' /*'80'*/;
+const prefix = 'tac_';
+const socket = '/tmp/mysql.sock';
 
  // Use PRE-DEFINED prefix for the database, else use SYS by default.
 const MYSQLi_TABLE_PREFIX = 't_';

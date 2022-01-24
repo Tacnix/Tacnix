@@ -12,9 +12,8 @@
 //
 
 session_start();
-__mysqli();
 __timezone ('Asia/Kolkata');
-__customErrorReporting(__ENV__);
+__CustomErrorReporting(__ENV__);
 // __getbrowser();
 // __getos();
 // __getip();
