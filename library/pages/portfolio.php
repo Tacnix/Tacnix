@@ -11,24 +11,41 @@
 <!-- ========== End Header Normal ========== -->
 <div class="wrapper over-hidden">
   <div class="work-inner work-hover work  d-flex dsn-load-animate" data-fx="1">
-    <div class="work__item pt-80 pb-80 border-bottom">
-      <a href="?p=portfolio&get=projects&id=1" class="effect-ajax" data-dsn-ajax="work-hover"data-img="<?=img?>/project/project1/1.jpg"><span class="metas mb-25"><span> Product</span> <span>voice</span></span><h2 class="work__item-text"><span class="work__item-textinner title">Maybe speaker</span></h2></a>
-    </div>
-    <div class="work__item pt-80 pb-80 border-bottom">
-      <a href="?p=portfolio&get=projects&id=2" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project2/1.jpg"><span class="metas mb-25"><span> pen</span></span><h2 class="work__item-text"><span class="work__item-textinner title">Yaren collection</span></h2></a>
-    </div>
-    <div class="work__item pt-80 pb-80 border-bottom">
-      <a href="?p=portfolio&get=projects&id=3" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project3/1.jpg"><span class="metas mb-25"><span>induction</span></span><h2 class="work__item-text"><span class="work__item-textinner title">Huggl Power Pack</span></h2></a>
-    </div>
-    <div class="work__item pt-80 pb-80 border-bottom">
-      <a href="?p=portfolio&get=projects&id=4" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project4/1.jpg"><span class="metas mb-25"><span> Architecture</span></span><h2 class="work__item-text"><span class="work__item-textinner title">Principal Garden</span></h2></a>
-    </div>
-    <div class="work__item pt-80 pb-80 border-bottom">
-      <a href="?p=portfolio&get=projects&id=5" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project5/1.jpg"><span class="metas mb-25"><span> Photography</span></span><h2 class="work__item-text"><span class="work__item-textinner title">Small Silver Car</span></h2></a>
-    </div>
-    <div class="work__item pt-80 pb-80">
-      <a href="?p=portfolio&get=projects&id=6" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project6/1.jpg"><span class="metas mb-25"><span> Photography</span></span><h2 class="work__item-text"><span class="work__item-textinner title">Lengshuikeng</span></h2></a>
-    </div>
+    <?php
+    // db_query('SELECT * FROM `projects`');
+    $mysqli = new mysqli(host, user, pass, data);
+    // Check connection
+    if ($mysqli->connect_error) {
+      die("Failed to connect to MySQL: " . $mysqli->connect_error);
+    }
+    // echo "Connected successfully";
+
+    $result = $mysqli->query('SELECT * FROM `projects`');
+    // $subquery = $mysql->query(`SELECT * FROM `tacnix`.`categories` WHERE `category_id` = %s`), $row[1];
+
+    // Perform query
+    if (!$result) {
+      echo 'Error: '. $mysqli->error;
+    } else {
+
+      while ($row = $result -> fetch_row()) {
+        // printf ('<div style="border: 1px solid #000; margin: 10px 50px; padding: 10px; display: block; background: #fff;"> <i>%s</i> <h3>%s</h3> <p>%s</p></div>', $row[1], $row[2], $row[3]);
+
+        printf ('
+        <div class="work__item pt-80 pb-80 border-bottom">
+          <a href="?p=projects&get=%s&project=%s&client=%s" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project_img.jpg"><span class="metas mb-25"><span> %s </span></span><h2 class="work__item-text"><span class="work__item-textinner title">%s</span></h2></a>
+        </div>
+        ', $row[1], $row[2], $row[2], $row[4], $row[3]);
+
+      }
+
+
+
+      // Free result set
+      $result -> free_result();
+    }
+    $mysqli->close();
+    ?>
   </div>
 
   <!-- ==========  next page  ========== -->

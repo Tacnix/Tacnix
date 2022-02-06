@@ -475,3 +475,12 @@ Stack trace:
 #0 {main}
   thrown in C:\MAMP\htdocs\workspace\tacnix\test.php on line 65
 [24-Jan-2022 09:59:37 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\test.php on line 68
+[06-Feb-2022 02:08:33 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 37
+[06-Feb-2022 02:08:33 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 37
+[06-Feb-2022 02:08:33 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 37
+[06-Feb-2022 02:08:33 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 37
+[06-Feb-2022 02:08:33 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 37
+[06-Feb-2022 02:08:33 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 37
+[06-Feb-2022 02:08:33 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 37
+[06-Feb-2022 02:08:33 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 37
+[06-Feb-2022 03:46:22 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'tacnix' (T_STRING), expecting ')' in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 24

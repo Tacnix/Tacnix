@@ -5,7 +5,7 @@
       switch ($page) {
       // Home 00
         case 'home':
-            if (file_exists(pages . ds . 'home.php')) { include (pages . ds . 'home.php'); }
+            if (file_exists(pages . ds . 'homepage.php')) { include (pages . ds . 'homepage.php'); }
             elseif (file_exists(pages . ds . '404.php')) { include (pages . ds . '404.php'); }
           break;
       // About 01
@@ -36,7 +36,7 @@
           break;
       // Home -01
         default:
-            if (file_exists(pages . ds . 'home.php')) { include (pages . ds . 'home.php'); }
+            if (file_exists(pages . ds . 'homepage.php')) { include (pages . ds . 'homepage.php'); }
             elseif (file_exists(pages . ds . '404.php')) { include (pages . ds . '404.php'); }
             // show blank page
           break;
