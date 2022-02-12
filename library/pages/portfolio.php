@@ -33,9 +33,9 @@
 
         printf ('
         <div class="work__item pt-80 pb-80 border-bottom">
-          <a href="?p=projects&get=%s&project=%s&client=%s" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project_img.jpg"><span class="metas mb-25"><span> %s </span></span><h2 class="work__item-text"><span class="work__item-textinner title">%s</span></h2></a>
+          <a href="?page=portfolio&getid=%s&project=%s&client=%s" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project_img.jpg"><span class="metas mb-25"><span> %s </span></span><h2 class="work__item-text"><span class="work__item-textinner title">%s</span></h2></a>
         </div>
-        ', $row[1], $row[2], $row[2], $row[4], $row[3]);
+        ', $row[1], $row[2], $row[3], $row[4], $row[3]);
 
       }
 

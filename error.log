@@ -484,3 +484,5 @@ Stack trace:
 [06-Feb-2022 02:08:33 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 37
 [06-Feb-2022 02:08:33 Asia/Kolkata] PHP Warning:  printf(): Too few arguments in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 37
 [06-Feb-2022 03:46:22 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'tacnix' (T_STRING), expecting ')' in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 24
+[10-Feb-2022 05:20:35 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''Error: '' (T_CONSTANT_ENCAPSED_STRING) in C:\MAMP\htdocs\workspace\tacnix\library\theme\_body.php on line 37
+[10-Feb-2022 05:21:18 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''Error: '' (T_CONSTANT_ENCAPSED_STRING) in C:\MAMP\htdocs\workspace\tacnix\library\theme\_body.php on line 37
