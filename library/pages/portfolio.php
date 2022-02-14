@@ -1,3 +1,5 @@
+<?php if ($page = 'portfolio') { ?>
+
 <!-- ========== Header Normal ========== -->
 <header class="header-page over-hidden p-relative header-padding-top header-padding-bottom dsn-header-animation background-section">
   <div class="bg-circle-dotted"></div>
@@ -66,4 +68,39 @@
   </section>
   <!-- ========== End next page ========== -->
 </div>
-<?php if (function_exists(_footer())) { _footer(); } ?>
+<?php if (function_exists(_footer())) { _footer(); }
+
+} else if ($page = 'portfolio' && !empty($getid)) {
+
+  $con = mysqli_connect(host, user, pass, data);
+
+  // connection checking...
+  if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    exit();
+  }
+
+  // Perform query
+  if ($result = mysqli_query($con, 'SELECT * FROM `projects`')) {
+
+    // echo "Returned rows are: " . mysqli_num_rows($result);
+
+
+    // Free result set
+    mysqli_free_result($result);
+  }
+
+  mysqli_close($con);
+
+  // switch (!$project && !$client == 0) {
+  //   case 'value':
+  //     // code...
+  //     break;
+  //
+  //   default:
+  //     // code...
+  //     break;
+  // }
+}
+
+?>
