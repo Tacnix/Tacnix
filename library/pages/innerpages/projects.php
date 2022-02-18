@@ -1,5 +1,4 @@
 <div class="content-inner">
-  <!--=== Header Project Full With & content bottom ===-->
   <header class="header-project p-relative h-100-v over-hidden dsn-header-animation v-dark-head">
     <div data-dsn-ajax="img" class="p-absolute dsn-hero-parallax-img w-100 h-100 over-hidden" data-overlay="6">
       <img class="cover-bg-img" src="assets/img/project/project1/1.jpg" alt="">
@@ -24,9 +23,7 @@
     </div>
     <div class="scroll-d p-absolute dsn-container"><img src="assets/img/scroll_down.svg" alt=""></div>
   </header>
-  <!--=== End Header Project Full With & content bottom ===-->
   <div class="wrapper">
-    <!--=== Intro Project ===-->
     <div class="intro-project p-relative section-margin">
       <div class="container">
         <div class="row">
@@ -66,38 +63,27 @@
         </div>
       </div>
     </div>
-    <!--=== End Intro Project ===-->
     <div class="section-margin p-relative">
       <div class="img-box-parallax" data-dsn-grid="move-up">
         <img class="has-bigger-scale" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project1/2-sm.jpg" data-dsn-srcset="assets/img/project/project1/2.jpg 1800w,assets/img/project/project1/2-sm.jpg 768w" alt="">
         <div class="cap"><span>Photography</span></div>
       </div>
     </div>
-
     <div class="section-margin has-popup over-hidden p-relative">
       <div class="container">
         <div class="d-grid grid-md-3  over-hidden">
-          <a href="assets/img/project/project1/3.jpg" class="p-relative over-hidden h-v-60 d-flex">
-            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project1/3-sm.jpg" data-dsn-srcset="assets/img/project/project1/3.jpg 1800w,assets/img/project/project1/3-sm.jpg 768w" alt="" class="cover-bg-img">
-          </a>
-          <a href="assets/img/project/project1/4.jpg" class="p-relative over-hidden h-v-60 d-flex">
-            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project1/4-sm.jpg" data-dsn-srcset="assets/img/project/project1/4.jpg 1800w,assets/img/project/project1/4-sm.jpg 768w" alt="" class="cover-bg-img">
-          </a>
-          <a href="assets/img/project/project1/5.jpg" class="p-relative over-hidden h-v-60 d-flex">
-            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project1/5-sm.jpg" data-dsn-srcset="assets/img/project/project1/5.jpg 1800w,assets/img/project/project1/5-sm.jpg 768w" alt="" class="cover-bg-img">
-          </a>
+          <a href="assets/img/project/project1/3.jpg" class="p-relative over-hidden h-v-60 d-flex"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project1/3-sm.jpg" data-dsn-srcset="assets/img/project/project1/3.jpg 1800w,assets/img/project/project1/3-sm.jpg 768w" alt="" class="cover-bg-img"></a>
+          <a href="assets/img/project/project1/4.jpg" class="p-relative over-hidden h-v-60 d-flex"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project1/4-sm.jpg" data-dsn-srcset="assets/img/project/project1/4.jpg 1800w,assets/img/project/project1/4-sm.jpg 768w" alt="" class="cover-bg-img"></a>
+          <a href="assets/img/project/project1/5.jpg" class="p-relative over-hidden h-v-60 d-flex"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project1/5-sm.jpg" data-dsn-srcset="assets/img/project/project1/5.jpg 1800w,assets/img/project/project1/5-sm.jpg 768w" alt="" class="cover-bg-img"></a>
         </div>
       </div>
     </div>
-
     <div class="container-fluid no-padding section-margin p-relative">
       <div class="img-box-parallax" data-dsn-grid="move-up">
         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project1/6-sm.jpg" data-dsn-srcset="assets/img/project/project1/6.jpg 1800w,assets/img/project/project1/6-sm.jpg 768w" alt="" class="has-bigger-scale">
         <div class="cap"><span>Photography</span></div>
       </div>
     </div>
-
-      <!-- ========== box vertical Section ========== -->
     <div class="box-gallery-vertical box-gallery-content section-margin" data-dsn-animate="section" data-dsn-duration="100%">
       <div class="container">
         <div class="row dsn-z-index-2">
@@ -122,13 +108,9 @@
         </div>
       </div>
     </div>
-    <!-- ========== End box vertical Section ========== -->
   </div>
-
   <div class="next-project v-dark-head p-relative h-v-100 over-hidden">
-    <div class="bg w-100 h-100 p-absolute over-hidden z-index-0 before-z-index" data-overlay="6">
-      <img src="assets/img/project/project2/1.jpg" alt="" class="cover-bg-img">
-    </div>
+    <div class="bg w-100 h-100 p-absolute over-hidden z-index-0 before-z-index" data-overlay="6"><img src="assets/img/project/project2/1.jpg" alt="" class="cover-bg-img"></div>
     <div class="next-project-inner dsn-container p-relative w-100 h-100 d-flex flex-column justify-content-center">
       <div class="project-number p-absolute d-flex">
         <h6>Project</h6>
@@ -136,13 +118,9 @@
         <span class="full">6</span>
       </div>
       <div class="metas d-inline-block mt-30 right-0 p-absolute top-0 dsn-container"><span>Architecture</span></div>
-      <a href="project2.html" class="effect-ajax border-top border-bottom" data-dsn-ajax="next">
-        <h2 class="title section-padding p-relative "><span class="title-stroke">Yaren collection</span><span class="p-absolute section-padding d-none top-0 w-100 h-100 left-0">Yarencollection</span></h2>
-      </a>
+      <a href="project2.html" class="effect-ajax border-top border-bottom" data-dsn-ajax="next"><h2 class="title section-padding p-relative "><span class="title-stroke">Yaren collection</span><span class="p-absolute section-padding d-none top-0 w-100 h-100 left-0">Yarencollection</span></h2></a>
       <div class="case">
-        <div class="p-absolute w-100 h-100 ">
-          <img class="cover-bg-img" src="assets/img/case.svg" alt="">
-        </div>
+        <div class="p-absolute w-100 h-100 "><img class="cover-bg-img" src="assets/img/case.svg" alt=""></div>
         <strong class="title-block heading-color number v-middle">100%</strong>
       </div>
     </div>
