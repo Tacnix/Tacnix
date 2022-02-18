@@ -14,39 +14,31 @@
 <div class="wrapper over-hidden">
   <div class="work-inner work-hover work  d-flex dsn-load-animate" data-fx="1">
     <?php
-    // db_query('SELECT * FROM `projects`');
-    $mysqli = new mysqli(host, user, pass, data);
-    // Check connection
-    if ($mysqli->connect_error) {
-      die("Failed to connect to MySQL: " . $mysqli->connect_error);
-    }
-    // echo "Connected successfully";
+    $mysqli = mysqli_connect(host, user, pass, data);
 
-    $result = $mysqli->query('SELECT * FROM `projects`');
-    // $subquery = $mysql->query(`SELECT * FROM `tacnix`.`categories` WHERE `category_id` = %s`), $row[1];
+    // checking connection...
+    if (mysqli_connect_errno()) {
+      echo "Failed to connect to MySQL: " . mysqli_connect_error();
+      exit();
+    }
+
+    $result = mysqli_query($mysqli, 'SELECT * FROM `projects`');
 
     // Perform query
     if (!$result) {
-      echo 'Error: '. $mysqli->error;
-    } else {
-
+      echo 'Error: '. mysqli_error($mysqli);
+    } else if (!empty($result)) {
       while ($row = $result -> fetch_row()) {
-        // printf ('<div style="border: 1px solid #000; margin: 10px 50px; padding: 10px; display: block; background: #fff;"> <i>%s</i> <h3>%s</h3> <p>%s</p></div>', $row[1], $row[2], $row[3]);
-
         printf ('
         <div class="work__item pt-80 pb-80 border-bottom">
           <a href="?page=portfolio&getid=%s&project=%s&client=%s" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project_img.jpg"><span class="metas mb-25"><span> %s </span></span><h2 class="work__item-text"><span class="work__item-textinner title">%s</span></h2></a>
         </div>
         ', $row[1], $row[2], $row[3], $row[4], $row[3]);
-
       }
-
-
-
       // Free result set
-      $result -> free_result();
+      mysqli_free_result($result);
     }
-    $mysqli->close();
+    mysqli_close($mysqli);
     ?>
   </div>
 
@@ -72,7 +64,7 @@
 
 } else if ($page = 'portfolio' && !empty($getid)) {
 
-  $con = mysqli_connect(host, user, pass, data);
+  $mysqli = mysqli_connect(host, user, pass, data);
 
   // connection checking...
   if (mysqli_connect_errno()) {
@@ -81,7 +73,7 @@
   }
 
   // Perform query
-  if ($result = mysqli_query($con, 'SELECT * FROM `projects`')) {
+  if ($result = mysqli_query($mysqli, 'SELECT * FROM `projects`')) {
 
     // echo "Returned rows are: " . mysqli_num_rows($result);
 
@@ -90,7 +82,7 @@
     mysqli_free_result($result);
   }
 
-  mysqli_close($con);
+  mysqli_close($mysqli);
 
   // switch (!$project && !$client == 0) {
   //   case 'value':
