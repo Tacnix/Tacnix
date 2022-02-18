@@ -1,4 +1,3 @@
-<!-- ========== box-gallery-vertical image left ========== -->
 <section class="about-section-2 p-relative section-margin" data-dsn-title="404 Error">
   <div class="container">
     <div class="row">
@@ -21,4 +20,3 @@
     </div>
   </div>
 </section>
-<!-- ========== End About Section ========== -->
