@@ -1,6 +1,4 @@
 <?php if ($page = 'portfolio') { ?>
-
-<!-- ========== Header Normal ========== -->
 <header class="header-page over-hidden p-relative header-padding-top header-padding-bottom dsn-header-animation background-section">
   <div class="bg-circle-dotted"></div>
   <div class="dsn-container">
@@ -10,36 +8,18 @@
     </div>
   </div>
 </header>
-<!-- ========== End Header Normal ========== -->
 <div class="wrapper over-hidden">
   <div class="work-inner work-hover work  d-flex dsn-load-animate" data-fx="1">
-    <?php
-    $mysqli = mysqli_connect(host, user, pass, data);
-
-    // checking connection...
-    if (mysqli_connect_errno()) {
-      echo "Failed to connect to MySQL: " . mysqli_connect_error();
-      exit();
-    }
-
+    <?php $mysqli = mysqli_connect(host, user, pass, data);
+    if (mysqli_connect_errno()) { echo "Failed to connect to MySQL: " . mysqli_connect_error(); exit(); }
     $result = mysqli_query($mysqli, 'SELECT * FROM `projects`');
-
-    // Perform query
-    if (!$result) {
-      echo 'Error: '. mysqli_error($mysqli);
-    } else if (!empty($result)) {
-      while ($row = $result -> fetch_row()) {
-        printf ('
-        <div class="work__item pt-80 pb-80 border-bottom">
+    if (!$result) { echo 'Error: '. mysqli_error($mysqli); } else if (!empty($result)) {
+      while ($row = $result -> fetch_row()) { printf ('<div class="work__item pt-80 pb-80 border-bottom">
           <a href="?page=portfolio&getid=%s&project=%s&client=%s" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project_img.jpg"><span class="metas mb-25"><span> %s </span></span><h2 class="work__item-text"><span class="work__item-textinner title">%s</span></h2></a>
-        </div>
-        ', $row[1], $row[2], $row[3], $row[4], $row[3]);
-      }
-      // Free result set
+        </div>', $row[1], $row[2], $row[3], $row[4], $row[3]); }
       mysqli_free_result($result);
     }
-    mysqli_close($mysqli);
-    ?>
+    mysqli_close($mysqli); ?>
   </div>
 
   <!-- ==========  next page  ========== -->
