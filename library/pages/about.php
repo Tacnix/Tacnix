@@ -169,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 mt-sm"><div class="box-right"><div class="container-img"><img class="cover-bg-img" src="<?=img?>/agency-1.jpg" alt=""></div></div></div>
+                <div class="col-lg-6 mt-sm"><div class="box-right"><div class="container-img"><img class="cover-bg-img" src="<?=img?>/awords.jpg" alt=""></div></div></div>
             </div>
         </div>
     </div>

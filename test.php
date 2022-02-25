@@ -13,20 +13,15 @@ define('url', "http://localhost/workspace/tacnix/");
 
 define('binary', path . ds . 'binary');
 
-if (file_exists(binary . ds . '__salts.php'))
-{ require binary . ds . '__salts.php'; }
-if (file_exists(binary . ds . '__defined.php'))
-{ require binary . ds . '__defined.php'; }
-if (file_exists(binary . ds . '__environment.php'))
-{ require binary . ds . '__environment.php'; }
-if (file_exists(binary . ds . '__functions.php'))
-{ require binary . ds . '__functions.php'; }
-
-
+if (file_exists(binary . ds . 'Salts.php')) { require binary . ds . 'Salts.php'; }
+if (file_exists(binary . ds . 'Defined.php')) { require binary . ds . 'Defined.php'; }
+if (file_exists(binary . ds . 'Environment.php')) { require binary . ds . 'Environment.php'; }
+if (file_exists(binary . ds . 'Functions.php')) { require binary . ds . 'Functions.php'; }
+if (file_exists(binary . ds . 'Core.php')) { require binary . ds . 'Core.php'; }
 
 session_start();
-__timezone ('Asia/Kolkata');
-__customErrorReporting(__ENV__);
+Timezone ('Asia/Kolkata');
+CustomErrorReporting(__ENV__);
 // __getbrowser();
 // __getos();
 // __getip();

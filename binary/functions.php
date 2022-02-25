@@ -9,7 +9,7 @@
  * @var      DEFAULT_TIMEZONE - Default timezone of application is made in India.
  */
 
- function __CustomErrorReporting($value) {
+ function CustomErrorReporting($value) {
      if (__ENV__ === "DEVELOPMENT") { // DEVELOPMENT
          error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED);
          ini_set('display_errors', 'On');
@@ -29,7 +29,7 @@
  }
 
 
-function __cleanurl() {
+function CLeanURL() {
 
   if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') {
       $url = "https://";
@@ -46,7 +46,7 @@ function __cleanurl() {
 
 }
 
-function __timezone($value) {
+function Timezone($value) {
   // Check the funtion is exist and set the "default timezone" to the function.
   if (function_exists('date_default_timezone_set')) {
     // Set the defined constant to the prebuilt function.
@@ -54,9 +54,10 @@ function __timezone($value) {
   }
 }
 
-function __mysqli_connect() {
+# Database Connection
+function dbconnect() {
   // Create connection
-  $mysqli = mysqli_connect(host, user, pass, data);
+  $mysqli = mysqli_connect(MySQLi_Hostname, MySQLi_Username, MySQLi_Password, MySQLi_Database);
 
   // checking connection...
   if (mysqli_connect_errno()) {
@@ -64,19 +65,21 @@ function __mysqli_connect() {
     exit();
   }
 
-  /* Set the desired charset after establishing a connection */
-  $charset=mysqli_character_set_name($mysqli);
-  // echo "Default character set is: " . $charset;
+  # Set the desired charset after establishing a connection
+  // $MySQLi_Charset = mysqli_character_set_name(MySQLi_Charset);
+  // echo "Default character set is: " . $MySQLi_Charset;
 
 }
 
-function __mysqli_close() {
+# Database Connection CLosing
+function dbclose() {
   mysqli_close($mysqli);
   }
 
-function __mysqli_select($value) {
+# SElect Query Custom Function
+function selectquery($value) {
 
-  __mysqli_connect();
+  dbconnect();
 
   // Perform query
   $result = mysqli_query($mysqli, $value);
@@ -85,14 +88,14 @@ function __mysqli_select($value) {
     // Free result set
     mysqli_free_result($result);
   }
-  __mysqli_close($mysqli);
+  dbclose($mysqli);
 }
 
 // function __posts() {
 //
 // }
 
-function __contactform() {
+function ContactForm() {
   /*
    * CONFIGURE EVERYTHING HERE
    */

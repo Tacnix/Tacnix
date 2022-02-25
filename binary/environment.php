@@ -40,7 +40,7 @@ const meta_title = '&lt;/tacnix&gt;';
 const meta_desc = 'We are a webste design & web development agency, that Crafting Digital Experiences';
 const meta_keyword = 'tacnix, website design, web development, web hosting, domain registration, crm solutions, erp solutions, pos solutoins, ppc marketing';
 const title = '&lt;/tacnix&gt;';
-const contact_address = '804, Mahalakshmi Tower, Tithal Road<br>Valsasd, Gujarat - 396001';
+const contact_address = 'B/303, Goumukh Dham, Opp. Shivar Garden <br> Mira Road, Thane, MH, IN 401107.';
 const contact_number = '+91 7738 064 970';
 const contact_email = 'hello@tacnix.com';
 
@@ -49,16 +49,17 @@ const dribbble = 'https://dribbble.com/Tacnix';
 const twitter = 'https://twitter.com/Tacnix1';
 const behance = 'https://www.behance.net/Tacnix';
 const facebook = 'https://www.facebook.com/tacnix/';
+const linkedin = 'https://www.linkedin.com/tacnix/';
 
 // MySQLi host, username, password, dbname, port, socket
-const host = 'localhost';
-const user = 'root';
-const pass = 'root';
-const data = 'tacnix';
-const char = 'utf8';
-const port = '3306' /*'80'*/;
-const prefix = 'tac_';
-const socket = '/tmp/mysql.sock';
+const MySQLi_Hostname = 'localhost';
+const MySQLi_Username = 'root';
+const MySQLi_Password = 'root';
+const MySQLi_Database = 'tacnix';
+const MySQLi_Charset = 'utf8';
+const MySQLi_Port = '3306' /*'80'*/;
+const MySQLi_Prefix = 'tac_';
+const MySQLi_Socket = '/tmp/mysql.sock';
 
  // Use PRE-DEFINED prefix for the database, else use SYS by default.
 const MYSQLi_TABLE_PREFIX = 't_';

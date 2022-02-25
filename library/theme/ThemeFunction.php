@@ -1,33 +1,15 @@
 <?php
-
 function pagetitle($value) {
-  // if (isset($_GET['page']) == TRUE) {
-  //   $pagetitle = ucwords($_GET['page']);
-  // } else {
-  //   $pagetitle = 'Home';
-  // }
-  // echo $pagetitle;
   $paget = $value = $_GET['page']?ucwords($_GET['page']):'Home';
   echo $paget;
   return TRUE;
 }
-
-// htmlspecialchars($_GET['page']);
-// ucwords(htmlspecialchars($_GET['page']));
-// $_GET['page'];
-// pagetitle(htmlspecialchars($_GET['page']));
-
-function scrolltop() {
-  ?>
+function scrolltop() { ?>
 <div class="scroll-to-top">
   <img src="<?=img?>/scroll_top.svg" alt="">
   <div class="box-numper"><span>10%</span></div>
 </div>
-  <?php
-}
-
-function cursorpage() {
-?>
+<?php } function cursorpage() { ?>
 <div class="cursor">
   <div class="cursor-helper">
     <span class="cursor-drag">Drag</span>
@@ -39,11 +21,7 @@ function cursorpage() {
     <span class="cursor-prev"><i class="fas fa-chevron-left"></i></span>
   </div>
 </div>
-<?php
-}
-
-function sociallinks() {
-  ?>
+<?php } function sociallinks() { ?>
 <div class="social-side social-network d-flex align-items-center ">
   <div class="icon" data-dsn="parallax"><i class="fa fa-share-alt" aria-hidden="true"></i></div>
   <ul class="socials d-flex flex-column p-absolute ">
@@ -53,11 +31,7 @@ function sociallinks() {
     <li><a href="<?=facebook?>" target="_blank"><i class="fab fa-facebook-f"></i><span>Fb</span></a></li>
   </ul>
 </div>
-  <?php
-}
-
-function preloader() {
-  ?>
+<?php } function preloader() { ?>
 <div class="preloader">
   <span class="percent ">0</span>
   <span class="loading-text text-uppercase">Loading...</span>
@@ -67,11 +41,7 @@ function preloader() {
     <span class="text-fill"><?=title?></span>
   </h1>
 </div>
-  <?php
-}
-
-function mainmenu() {
-  ?>
+<?php } function mainmenu() { ?>
 <div class="site-header dsn-container dsn-load-animate">
   <div class="extend-container d-flex w-100 align-items-baseline justify-content-between align-items-end">
     <div class="inner-header p-relative">
@@ -96,8 +66,8 @@ function mainmenu() {
       <ul class="extend-container p-relative d-flex flex-column justify-content-center h-100">
         <li><a href="?page=about"><span class="dsn-title-menu">About</span><span class="dsn-meta-menu">01</span><span class="dsn-bg-arrow"></span></a></li>
         <li><a href="?page=services"><span class="dsn-title-menu">Services</span><span class="dsn-meta-menu">02</span><span class="dsn-bg-arrow"></span></a></li>
-        <li><a href="?page=portfolio"><span class="dsn-title-menu">Portfolio</span><span class="dsn-meta-menu">03</span><span class="dsn-bg-arrow"></span></a></li>
-        <li><a href="?page=blog"><span class="dsn-title-menu">Blog</span><span class="dsn-meta-menu">04</span><span class="dsn-bg-arrow"></span></a></li>
+        <!-- <li><a href="?page=projects"><span class="dsn-title-menu">Projects</span><span class="dsn-meta-menu">03</span><span class="dsn-bg-arrow"></span></a></li> -->
+        <!-- <li><a href="?page=blog"><span class="dsn-title-menu">Blog</span><span class="dsn-meta-menu">04</span><span class="dsn-bg-arrow"></span></a></li> -->
         <li><a href="?page=contact" class="user-no-selection"><span class="dsn-title-menu">Contact</span><span class="dsn-meta-menu">05</span><span class="dsn-bg-arrow"></span></a></li>
       </ul>
       <div class="container-content  p-absolute h-100 left-60 d-flex flex-column justify-content-center">
@@ -109,17 +79,17 @@ function mainmenu() {
           <div class="nav-content">
             <p class="title-line">Contact</p>
             <p class="links over-hidden"><a href="#" data-hover-text="+91 7738 064 970" class="link-hover"><?=contact_number?></a></p>
-            <p class="links  over-hidden"><a href="mailto:hello@tacnix.com;" data-hover-text="hello@tacnix.com" class="link-hover"><?=contact_email?></a></p>
+            <p class="links  over-hidden"><a href="mailto:<?=contact_email?>;" data-hover-text="<?=contact_email?>" class="link-hover"><?=contact_email?></a></p>
           </div>
         </div>
         <div class="nav-social nav-content">
           <div class="nav-social-inner p-relative">
             <p class="title-line">Follow us</p>
             <ul>
-              <li><a href="#" target="_blank" rel="nofollow">Dribbble.<div class="icon-circle"></div></a></li>
-              <li><a href="#" target="_blank" rel="nofollow">Behance.<div class="icon-circle"></div></a></li>
-              <li><a href="#" target="_blank" rel="nofollow">Linkedin.<div class="icon-circle"></div></a></li>
-              <li><a href="#" target="_blank" rel="nofollow">Twitter.<div class="icon-circle"></div></a></li>
+              <li><a href="<?=dribbble?>" target="_blank" rel="nofollow">Dribbble.<div class="icon-circle"></div></a></li>
+              <li><a href="<?=behance?>" target="_blank" rel="nofollow">Behance.<div class="icon-circle"></div></a></li>
+              <li><a href="<?=linkedin?>" target="_blank" rel="nofollow">Linkedin.<div class="icon-circle"></div></a></li>
+              <li><a href="<?=twitter?>" target="_blank" rel="nofollow">Twitter.<div class="icon-circle"></div></a></li>
             </ul>
           </div>
         </div>
@@ -127,11 +97,7 @@ function mainmenu() {
     </nav>
   </div>
 </div>
-<?php
-}
-
-function _footer() {
-  ?>
+<?php } function _footer() { ?>
 <footer class="footer  background-section p-relative">
   <div class="container">
     <div class="footer-container">
@@ -157,12 +123,7 @@ function _footer() {
     </div>
   </div>
 </footer>
-  <?php
-}
-
-function ContactFormModel() {
-  ?>
-  <!-- ========== Contact Form Model ========== -->
+<?php } function ContactFormModel() { ?>
 <div class="contact-btn"><div class="contact-btn-txt">Contact</div></div>
 <div class="contact-modal background-section">
   <div class="contact-container h-100 w-100  border-right">
@@ -178,7 +139,7 @@ function ContactFormModel() {
               <p class="sub-heading line-shap line-shap-before mb-15"><span class="line-bg-right">Stay connected</span></p>
               <h2 class="section-title  title-cap">Get in Touch</h2>
             </div>
-            <form id="contact-form" class="form" method="post" action="contact.php" data-toggle="validator">
+            <form id="contact-form" class="form" method="post" action="contactscript.php" data-toggle="validator">
               <div class="messages"></div>
               <div class="input__wrap controls">
                 <div class="form-group">
@@ -216,14 +177,14 @@ function ContactFormModel() {
             <ul>
               <li>
                 <h5 class="title-block mb-15">Contact</h5>
-                <p class="text-p">+91 7738 064 970</p>
+                <p class="text-p"><?=contact_number?></p>
                 <div class="over-hidden mt-5">
-                  <a class="link-hover" data-hover-text="hello@tacnix.com" href="#">hello@tacnix.com</a>
+                  <a class="link-hover" data-hover-text="<?=contact_email?>" href="#"><?=contact_email?></a>
                 </div>
               </li>
               <li>
                 <h5 class="title-block mb-15">Address</h5>
-                <p class="text-p">804, Mahalakshmi Tower, Tithal Road <br> Valsad, Gujarat 396001</p>
+                <p class="text-p"><?=contact_address?></p>
               </li>
               <li>
                 <h5 class="title-block mb-15">Follow</h5>
@@ -244,6 +205,4 @@ function ContactFormModel() {
     </div>
   </div>
 </div>
-  <!-- ========== End Contact Form Model ========== -->
-  <?php
-}
+<?php } ?>

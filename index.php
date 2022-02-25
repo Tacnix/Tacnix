@@ -18,4 +18,4 @@
  define('dir', "/mamp/htdocs/workspace/tacnix/");
  define('url', "http://localhost/workspace/tacnix/");
 
- if (file_exists(path . ds . '__boot.php')) { require_once path . ds . '__boot.php'; }
+ if (file_exists(path . ds . 'bootstrap.php')) { require_once path . ds . 'bootstrap.php'; }

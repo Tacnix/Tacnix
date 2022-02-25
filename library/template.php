@@ -17,18 +17,8 @@ $client = htmlspecialchars($_GET['client']);
 if (function_exists(preloader())) {preloader();}
 if (function_exists(mainmenu())) {mainmenu();}
 
-if ($page === TRUE) {
-  if (file_exists(theme . ds . 'htmlbody.php'))
-  { include (theme . ds . 'htmlbody.php'); }
-}
-elseif ($page == 'portfolio' && $projects == TRUE) {
-  if (file_exists(pages . ds . '_projects.php'))
-  { include (pages . ds . '_projects.php');  }
-}
-else {
-  if (file_exists(theme . ds . 'htmlbody.php'))
-  {include (theme . ds . 'htmlbody.php'); }
-}
+if (!empty($page)) { if (file_exists(theme . ds . 'htmlbody.php')) { include (theme . ds . 'htmlbody.php'); } }
+else { if (file_exists(theme . ds . 'htmlbody.php')) { include (theme . ds . 'htmlbody.php'); } }
 // As per query string pages have to change in the body section of the page.
 
 if (function_exists(scrolltop())) { scrolltop(); }

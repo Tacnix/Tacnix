@@ -12,8 +12,8 @@
 //
 
 session_start();
-__timezone ('Asia/Kolkata');
-__CustomErrorReporting(__ENV__);
+Timezone ('Asia/Kolkata');
+CustomErrorReporting(__ENV__);
 // __getbrowser();
 // __getos();
 // __getip();

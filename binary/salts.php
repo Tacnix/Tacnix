@@ -4,7 +4,7 @@
 /* =================================
    CUSTOM HASH
 =================================== */
-function customHash( $customSalt, $uppercaseSalt ) {
+function CustomHash( $customSalt, $uppercaseSalt ) {
     $rendomSalt = mt_rand();
     $keyLength = strlen( $customSalt );
     $split = $keyLength / 2;
@@ -16,7 +16,7 @@ function customHash( $customSalt, $uppercaseSalt ) {
 /* =================================
    PASSWORD SALT
 =================================== */
-function passwordSalt( $userPassword, $customSalt ) {
+function PasswordSalt( $userPassword, $customSalt ) {
     $userPasswordLength = strlen( $userPassword );
     $split = $userPassword / 2;
     $arrayKey = str_split( $userPasswordLength, $split );
@@ -27,7 +27,7 @@ function passwordSalt( $userPassword, $customSalt ) {
 /* =================================
    CUSTOM SALT
 =================================== */
-function customSalt( $saltSize = "" ) {
+function CustomSalt( $saltSize = "" ) {
     $keySet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     for ( $i = 0; $i < $saltSize; $i++ )
         $customSalt .= substr( $keySet, rand( 0, strlen( $keySet ) - 1 ), 1 );
@@ -37,7 +37,7 @@ function customSalt( $saltSize = "" ) {
 /* =================================
    NUMRIC SALT
 =================================== */
-function numricSalt( $saltSize = "" ) {
+function NumricSalt( $saltSize = "" ) {
 	$keySet = "0123456789";
 	for ( $i = 0; $i < $saltSize; $i++ )
 		$numricSalt .= substr( $keySet, rand( 0, strlen( $keySet ) - 1 ), 1 );
@@ -47,7 +47,7 @@ function numricSalt( $saltSize = "" ) {
 /* =================================
    LOWERCASE SALT
 =================================== */
-function lowercaseSalt( $saltSize = "" ) {
+function LowerCaseSalt( $saltSize = "" ) {
     $keySet = "abcdefghijklmnopqrstuvwxyz";
     for ( $i = 0; $i < $saltSize; $i++ )
         $lowercaseSalt .= substr( $keySet, rand( 0, strlen( $keySet ) - 1 ), 1 );
@@ -57,7 +57,7 @@ function lowercaseSalt( $saltSize = "" ) {
 /* =================================
    UPPERCASE SALT
 =================================== */
-function uppercaseSalt( $saltSize = "" ) {
+function UpperCaseSalt( $saltSize = "" ) {
     $keyset = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     for ( $i = 0; $i < $saltSize; $i++ )
         $uppercaseSalt .= substr( $keySet, rand( 0, strlen( $keySet ) - 1 ), 1 );
