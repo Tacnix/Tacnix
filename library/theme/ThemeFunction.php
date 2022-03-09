@@ -68,7 +68,7 @@ function scrolltop() { ?>
         <li><a href="?page=services"><span class="dsn-title-menu">Services</span><span class="dsn-meta-menu">02</span><span class="dsn-bg-arrow"></span></a></li>
         <!-- <li><a href="?page=projects"><span class="dsn-title-menu">Projects</span><span class="dsn-meta-menu">03</span><span class="dsn-bg-arrow"></span></a></li> -->
         <!-- <li><a href="?page=blog"><span class="dsn-title-menu">Blog</span><span class="dsn-meta-menu">04</span><span class="dsn-bg-arrow"></span></a></li> -->
-        <li><a href="?page=contact" class="user-no-selection"><span class="dsn-title-menu">Contact</span><span class="dsn-meta-menu">05</span><span class="dsn-bg-arrow"></span></a></li>
+        <li><a href="?page=contact" class="user-no-selection"><span class="dsn-title-menu">Contact</span><span class="dsn-meta-menu">03</span><span class="dsn-bg-arrow"></span></a></li>
       </ul>
       <div class="container-content  p-absolute h-100 left-60 d-flex flex-column justify-content-center">
         <div class="nav__info">
