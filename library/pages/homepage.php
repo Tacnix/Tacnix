@@ -146,8 +146,8 @@
                                 </svg>
                               </div>
                               <div class="service-description">
-                                <h4 class="title-block mb-15">Website &amp; Hybrid App Design</h4>
-                                <p>Te qui alii inermis vivendum, an decore libris eum. Te mel dico alia wisi, cu vitae noluisse phaedrum.</p>
+                                <h4 class="title-block mb-15">Website &amp; Hybrid Apps</h4>
+                                <p>All your dream come true. From Website Design tho Hybrid App Development all done here.</p>
                               </div>
                             </div>
                         </div>
