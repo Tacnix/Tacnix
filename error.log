@@ -1,1 +1,35 @@
 
+[14-Mar-2022 04:33:07 Asia/Kolkata] PHP Warning:  Undefined array key "page" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 04:33:07 Asia/Kolkata] PHP Warning:  Undefined array key "project" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 12
+[14-Mar-2022 04:33:07 Asia/Kolkata] PHP Warning:  Undefined array key "client" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 13
+[14-Mar-2022 04:39:05 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in C:\MAMP\htdocs\workspace\tacnix\library\template.php:11
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require()
+#1 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 04:39:36 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in C:\MAMP\htdocs\workspace\tacnix\library\template.php:11
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require()
+#1 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 04:39:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in C:\MAMP\htdocs\workspace\tacnix\library\template.php:11
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require()
+#1 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 04:39:57 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in C:\MAMP\htdocs\workspace\tacnix\library\template.php:11
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require()
+#1 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\index.php(21): require_once('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 04:40:26 Asia/Kolkata] PHP Warning:  Undefined array key "page" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 04:40:26 Asia/Kolkata] PHP Warning:  Undefined array key "project" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 12
+[14-Mar-2022 04:40:26 Asia/Kolkata] PHP Warning:  Undefined array key "client" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 13

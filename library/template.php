@@ -11,6 +11,7 @@ if (file_exists(theme . ds . 'htmlhead.php'))
 $page = htmlspecialchars($_GET['page']);
 $project = htmlspecialchars($_GET['project']);
 $client = htmlspecialchars($_GET['client']);
+
 ?>
 <body class="v-dark dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
 <?php
