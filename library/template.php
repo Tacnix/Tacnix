@@ -8,8 +8,13 @@ if (file_exists(theme . ds . 'ThemeFunction.php'))
 if (file_exists(theme . ds . 'htmlhead.php'))
 { include (theme . ds . 'htmlhead.php'); }
 
+// if ( isset($_GET['page']) )
 $page = htmlspecialchars($_GET['page']);
+
+// if ( isset($_GET['project']) )
 $project = htmlspecialchars($_GET['project']);
+
+// if ( isset($_GET['client']) )
 $client = htmlspecialchars($_GET['client']);
 
 ?>

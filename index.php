@@ -10,12 +10,9 @@
  * @link     https://tacnix.com
  */
 
- define ('siteurl', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
-
- define('path', dirname(__FILE__));
- define('ds', DIRECTORY_SEPARATOR);
-
- define('dir', "/mamp/htdocs/workspace/tacnix/");
- define('url', "http://localhost/workspace/tacnix/");
-
- if (file_exists(path . ds . 'bootstrap.php')) { require_once path . ds . 'bootstrap.php'; }
+define ('siteurl', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+define('path', dirname(__FILE__));
+define('ds', DIRECTORY_SEPARATOR);
+define('dir', "/mamp/htdocs/workspace/tacnix/");
+define('url', "http://localhost/workspace/tacnix/");
+if (file_exists(path . ds . 'bootstrap.php')) { require_once path . ds . 'bootstrap.php'; }

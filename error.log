@@ -33,3 +33,73 @@ Stack trace:
 [14-Mar-2022 04:40:26 Asia/Kolkata] PHP Warning:  Undefined array key "page" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
 [14-Mar-2022 04:40:26 Asia/Kolkata] PHP Warning:  Undefined array key "project" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 12
 [14-Mar-2022 04:40:26 Asia/Kolkata] PHP Warning:  Undefined array key "client" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 13
+[14-Mar-2022 04:46:44 Asia/Kolkata] PHP Warning:  Undefined array key "project" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 12
+[14-Mar-2022 04:46:44 Asia/Kolkata] PHP Warning:  Undefined array key "client" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 13
+[14-Mar-2022 04:46:54 Asia/Kolkata] PHP Warning:  Undefined array key "page" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 04:46:54 Asia/Kolkata] PHP Warning:  Undefined array key "project" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 12
+[14-Mar-2022 04:46:54 Asia/Kolkata] PHP Warning:  Undefined array key "client" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 13
+[14-Mar-2022 04:47:57 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 7
+[14-Mar-2022 04:47:57 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 12
+[14-Mar-2022 04:47:57 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 17
+[14-Mar-2022 04:47:57 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 22
+[14-Mar-2022 04:47:57 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 27
+[14-Mar-2022 04:47:57 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 32
+[14-Mar-2022 04:47:58 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 7
+[14-Mar-2022 04:47:58 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 12
+[14-Mar-2022 04:47:58 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 17
+[14-Mar-2022 04:47:58 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 22
+[14-Mar-2022 04:47:58 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 27
+[14-Mar-2022 04:47:58 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 32
+[14-Mar-2022 04:48:46 Asia/Kolkata] PHP Warning:  Undefined array key "page" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 04:48:46 Asia/Kolkata] PHP Warning:  Undefined array key "project" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 12
+[14-Mar-2022 04:48:46 Asia/Kolkata] PHP Warning:  Undefined array key "client" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 13
+[14-Mar-2022 04:58:40 Asia/Kolkata] PHP Warning:  Undefined array key "page" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 04:58:40 Asia/Kolkata] PHP Warning:  Undefined array key "project" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 12
+[14-Mar-2022 04:58:40 Asia/Kolkata] PHP Warning:  Undefined array key "client" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 13
+[14-Mar-2022 05:00:35 Asia/Kolkata] PHP Parse error:  syntax error, unexpected token ";" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 05:01:01 Asia/Kolkata] PHP Parse error:  syntax error, unexpected token ";" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 05:01:07 Asia/Kolkata] PHP Parse error:  syntax error, unexpected variable "$project" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 14
+[14-Mar-2022 05:01:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 11
+[14-Mar-2022 05:01:49 Asia/Kolkata] PHP Warning:  Undefined array key "project" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 12
+[14-Mar-2022 05:01:49 Asia/Kolkata] PHP Warning:  Undefined array key "client" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 13
+[14-Mar-2022 05:01:49 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 7
+[14-Mar-2022 05:01:49 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 12
+[14-Mar-2022 05:01:49 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 17
+[14-Mar-2022 05:01:49 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 22
+[14-Mar-2022 05:01:49 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 27
+[14-Mar-2022 05:01:49 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 32
+[14-Mar-2022 05:02:20 Asia/Kolkata] PHP Warning:  Undefined array key "project" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 15
+[14-Mar-2022 05:02:20 Asia/Kolkata] PHP Warning:  Undefined array key "client" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 16
+[14-Mar-2022 05:02:20 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 7
+[14-Mar-2022 05:02:20 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 12
+[14-Mar-2022 05:02:20 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 17
+[14-Mar-2022 05:02:20 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 22
+[14-Mar-2022 05:02:20 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 27
+[14-Mar-2022 05:02:20 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 32
+[14-Mar-2022 05:03:01 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 7
+[14-Mar-2022 05:03:01 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 12
+[14-Mar-2022 05:03:01 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 17
+[14-Mar-2022 05:03:01 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 22
+[14-Mar-2022 05:03:01 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 27
+[14-Mar-2022 05:03:01 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 32
+[14-Mar-2022 05:04:09 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 7
+[14-Mar-2022 05:04:09 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 12
+[14-Mar-2022 05:04:09 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 17
+[14-Mar-2022 05:04:09 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 22
+[14-Mar-2022 05:04:09 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 27
+[14-Mar-2022 05:04:09 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 32
+[14-Mar-2022 05:04:33 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 7
+[14-Mar-2022 05:04:33 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 12
+[14-Mar-2022 05:04:33 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 17
+[14-Mar-2022 05:04:33 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 22
+[14-Mar-2022 05:04:33 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 27
+[14-Mar-2022 05:04:33 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 32
+[14-Mar-2022 05:11:16 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 7
+[14-Mar-2022 05:11:16 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 12
+[14-Mar-2022 05:11:16 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 17
+[14-Mar-2022 05:11:16 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 22
+[14-Mar-2022 05:11:16 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 27
+[14-Mar-2022 05:11:16 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 32
+[14-Mar-2022 05:11:36 Asia/Kolkata] PHP Warning:  Undefined array key "page" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 12
+[14-Mar-2022 05:11:36 Asia/Kolkata] PHP Warning:  Undefined array key "project" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 15
+[14-Mar-2022 05:11:36 Asia/Kolkata] PHP Warning:  Undefined array key "client" in C:\MAMP\htdocs\workspace\tacnix\library\template.php on line 18

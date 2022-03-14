@@ -56,8 +56,27 @@ function Timezone($value) {
 
 # Database Connection
 function dbconnect() {
+
+  $user = MySQLi_Username;
+  $password = MySQLi_Password;
+  $db = MySQLi_Database;
+  $host = MySQLi_Hostname;
+  $port = MySQLi_Port;
+
+  $link = mysqli_init();
+  $mysqli = mysqli_real_connect(
+     $link,
+     $host,
+     $user,
+     $password,
+     $db,
+     $port
+  );
+
+
+
   // Create connection
-  $mysqli = mysqli_connect(MySQLi_Hostname, MySQLi_Username, MySQLi_Password, MySQLi_Database);
+  // $mysqli = mysqli_connect(MySQLi_Hostname, MySQLi_Username, MySQLi_Password, MySQLi_Database);
 
   // checking connection...
   if (mysqli_connect_errno()) {
