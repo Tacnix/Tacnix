@@ -8,14 +8,23 @@ if (file_exists(theme . ds . 'ThemeFunction.php'))
 if (file_exists(theme . ds . 'htmlhead.php'))
 { include (theme . ds . 'htmlhead.php'); }
 
-// if ( isset($_GET['page']) )
-$page = htmlspecialchars($_GET['page']);
+if ( isset($_GET['page']) ) {
+  $page = htmlspecialchars($_GET['page']);
+} else {
+  $page = 'home';
+}
 
-// if ( isset($_GET['project']) )
-$project = htmlspecialchars($_GET['project']);
+if ( isset($_GET['project']) ) {
+  $project = htmlspecialchars($_GET['page']);
+} else {
+  $project = 'null';
+}
 
-// if ( isset($_GET['client']) )
-$client = htmlspecialchars($_GET['client']);
+if ( isset($_GET['cid']) ) {
+  $client = htmlspecialchars($_GET['page']);
+} else {
+  $client = 'null';
+}
 
 ?>
 <body class="v-dark dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
