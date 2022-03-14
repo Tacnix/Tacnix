@@ -23,7 +23,7 @@ $client = htmlspecialchars($_GET['client']);
 if (function_exists(preloader())) {preloader();}
 if (function_exists(mainmenu())) {mainmenu();}
 
-if (!empty($page)) { if (file_exists(theme . ds . 'htmlbody.php')) { include (theme . ds . 'htmlbody.php'); } }
+if (!empty($page) && isset($page)) { if (file_exists(theme . ds . 'htmlbody.php')) { include (theme . ds . 'htmlbody.php'); } }
 else { if (file_exists(theme . ds . 'htmlbody.php')) { include (theme . ds . 'htmlbody.php'); } }
 // As per query string pages have to change in the body section of the page.
 
