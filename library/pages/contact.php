@@ -1,5 +1,3 @@
-<!-- ========== Header Normal ========== -->
-
 <header
     class="header-page over-hidden p-relative header-padding-top header-padding-bottom dsn-header-animation">
     <div class="bg-circle-dotted"></div>
@@ -13,7 +11,6 @@
         </div>
     </div>
 </header>
-<!-- ========== End Header Normal ========== -->
 
 
 <div class="wrapper">

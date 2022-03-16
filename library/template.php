@@ -27,7 +27,7 @@ if ( isset($_GET['cid']) ) {
 }
 
 ?>
-<body class="v-dark dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
+<body class="v-light dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
 <?php
 if (function_exists(preloader())) {preloader();}
 if (function_exists(mainmenu())) {mainmenu();}
@@ -46,6 +46,8 @@ if (function_exists(sociallinks())) { sociallinks(); }
   <script src="<?=js?>/jquery-3.1.1.min.js"></script>
   <script src="<?=js?>/plugins.min.js"></script>
   <script src="<?=js?>/tacnix.min.js"></script>
+  <!-- GMap API Link: AIzaSyBT8M_IEzL_yNywNLYxvNcp4ej_Fp31O9w -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT8M_IEzL_yNywNLYxvNcp4ej_Fp31O9w&callback=initMap"></script>
   <script src="<?=js?>/custom.js"></script>
 </body>
 </html>
