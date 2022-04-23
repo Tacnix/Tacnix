@@ -27,5 +27,11 @@ define('js', themes . 'js');
 // $id['uid'] = "0123456789";
 // $id['pid'] = "0123456789";
 
+// Temp Defined Values.
 define ('post','0');
 define ('testimonial','0');
+define ('work','1');
+define ('brand','0');
+define ('awards','0');
+define ('team','0');
+define ('clients','0');

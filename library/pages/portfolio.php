@@ -10,16 +10,15 @@
 </header>
 <div class="wrapper over-hidden">
   <div class="work-inner work-hover work  d-flex dsn-load-animate" data-fx="1">
-    <?php $mysqli = mysqli_connect(host, user, pass, data);
-    if (mysqli_connect_errno()) { echo "Failed to connect to MySQL: " . mysqli_connect_error(); exit(); }
-    $result = mysqli_query($mysqli, 'SELECT * FROM `projects`');
-    if (!$result) { echo 'Error: '. mysqli_error($mysqli); } else if (!empty($result)) {
-      while ($row = $result -> fetch_row()) { printf ('<div class="work__item pt-80 pb-80 border-bottom">
+    <?php $mysqlilink = mysqliconnect()
+    $mysqliresult = mysqli_query($mysqlilink, 'SELECT * FROM `projects`');
+    if (!$mysqliresult) { echo 'Error: '. mysqli_error($mysqlilink); } else if (!empty($mysqliresult)) {
+      while ($row = $mysqliresult -> fetch_row()) { printf ('<div class="work__item pt-80 pb-80 border-bottom">
           <a href="?page=portfolio&getid=%s&project=%s&client=%s" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project_img.jpg"><span class="metas mb-25"><span> %s </span></span><h2 class="work__item-text"><span class="work__item-textinner title">%s</span></h2></a>
         </div>', $row[1], $row[2], $row[3], $row[4], $row[3]); }
-      mysqli_free_result($result);
+      mysqli_free_result($mysqliresult);
     }
-    mysqli_close($mysqli); ?>
+    mysqli_close($mysqlilink); ?>
   </div>
 
   <!-- ==========  next page  ========== -->

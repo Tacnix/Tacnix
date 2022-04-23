@@ -31,10 +31,12 @@
                         <div class="section-title"><h4>Keep Your Business Safe & Ensure High Availability</h4></div>
                     </div>
                 </div>
+                 Tacnix is also providing web hosting and recognize as the IT Service provider.  We see it as an important part of our service to understand our customer's requirement and meet their needs. We aim is "complete customer satisfaction". We have happy and satisfied clients spread all over the world. Whether you want an attractive compact budget website or a dynamic, e-commerce portals, we have a solution for it.  We guide our clients through a step-by-step process to ensure their effective web presence. We are located at Mumbai, Maharastra. Our online support team extends their service through out the daytime.
+
                 <div class="col-lg-6">
                     <div class="box-right">
-                        <p class="max-w570 dsn-up mb-15 ">A business consulting agency is involved in the planning, implementation, and education of businesses. We work directly with business owners on developing a business plan, identifying marketing needs and developing the necessary skills for business ownership.</p>
-                        <p class="max-w570 dsn-up">but deploy to production. C-suite. First-order optimal strategies build on a culture of contribution and inclusion so those options</p>
+                        <p class="max-w570 dsn-up mb-15 ">Tacnix established in the year of 2011 with a vision to provide Internet Solutions with comprehensive range of web services like Web Designing, Domain Name Registration, Web Hosting, E-Mail Solutions & SSL Certificates, &amp; more. We gained recognition with high quality projects on the local Indian market and as well as outside of India too.</p>
+                        <p class="max-w570 dsn-up">Since inception, we provide the excellent service for each of our customer.</p>
                     </div>
                 </div>
 
@@ -139,7 +141,9 @@
         </div>
     </div>
     <!-- ========== End services Section ========== -->
-
+    <?php
+    if (awards >= 1 ) {
+    ?>
     <!-- ========== awards Section ========== -->
     <div class="awards-section p-relative section-margin" data-dsn-title="Awards">
         <div class="container">
@@ -174,8 +178,10 @@
         </div>
     </div>
     <!-- ========== End awards Section ========== -->
-
-
+    <?
+    }
+    if (team >= 1) {
+    ?>
     <!-- ========== Team Section ========== -->
     <section class="team team-about section-margin p-relative" data-dsn-title="Team">
         <div class="container mb-70 d-flex flex-column">
@@ -267,7 +273,10 @@
         </div>
     </section>
     <!-- ========== End Team Section ========== -->
-
+    <?
+    }
+    if (testimonial >= 1) {
+    ?>
     <!-- ========== testimonial Section ========== -->
     <section class="testimonials testimonials-personal section-margin" data-dsn-title="testimonials">
         <div class="container mb-70 d-flex flex-column">
@@ -373,8 +382,10 @@
         </div>
     </section>
     <!-- ========== End testimonial Section ========== -->
-
-
+    <?
+    }
+    if (clients >= 1) {
+    ?>
     <!-- ========== End brand-client Section ========== -->
     <section class="brand-client section-margin" data-dsn-animate="section" data-dsn-title="Client">
         <div class="container mb-70 d-flex flex-column">
@@ -432,8 +443,9 @@
         </div>
     </section>
     <!-- ========== End brand-client Section ========== -->
-
-
+    <?
+    }
+    ?>
     <!-- ==========  next page  ========== -->
     <section class="next-page p-relative section-padding border-top background-section">
         <div class="bg-circle-dotted"></div>
@@ -457,7 +469,7 @@
 
                 <div class="button-box d-flex justify-content-end align-items-center">
                     <div>
-                        <a href="?p=contact&from=about" class="mt-30 effect-ajax dsn-button p-relative">
+                        <a href="?page=contact&from=about" class="mt-30 effect-ajax dsn-button p-relative">
                             <span class="dsn-border-rdu "></span>Contact Us
                         </a>
                     </div>

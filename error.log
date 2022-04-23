@@ -180,3 +180,144 @@ Stack trace:
 [15-Mar-2022 02:21:58 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 22
 [15-Mar-2022 02:21:58 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 27
 [15-Mar-2022 02:21:58 Asia/Kolkata] PHP Warning:  Undefined variable $page in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 32
+[18-Mar-2022 03:14:41 Asia/Kolkata] PHP Parse error:  Unmatched '}' in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 724
+[07-Apr-2022 03:38:51 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "awards" in C:\MAMP\htdocs\workspace\tacnix\library\pages\about.php:143
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(13): include()
+#1 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\about.php on line 143
+[07-Apr-2022 15:17:07 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "instagram" in C:\MAMP\htdocs\workspace\tacnix\library\pages\contact.php:79
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(33): include()
+#1 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\contact.php on line 79
+[22-Apr-2022 19:48:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "host" in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php:13
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(23): include()
+#1 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 13
+[22-Apr-2022 19:51:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "MySQLi_Username" in C:\MAMP\htdocs\workspace\tacnix\binary\functions.php:60
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php(14): mysqliconnect()
+#1 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(23): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\binary\functions.php on line 60
+[22-Apr-2022 19:52:22 Asia/Kolkata] PHP Warning:  Undefined variable $mysqli in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 19:52:22 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php:15
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php(15): mysqli_query(NULL, 'SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(23): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 19:55:12 Asia/Kolkata] PHP Warning:  Undefined variable $mysqli in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 19:55:12 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php:15
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php(15): mysqli_query(NULL, 'SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(23): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 19:56:20 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php:15
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php(15): mysqli_query(NULL, 'SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(23): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 19:58:15 Asia/Kolkata] PHP Warning:  Undefined variable $mysqli in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 19:58:15 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php:15
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php(15): mysqli_query(NULL, 'SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(23): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 20:00:54 Asia/Kolkata] PHP Warning:  Undefined variable $mysqli in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 20:00:54 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php:15
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php(15): mysqli_query(NULL, 'SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(23): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 20:04:07 Asia/Kolkata] PHP Warning:  Undefined variable $mysqli in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 20:04:07 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php:15
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php(15): mysqli_query(NULL, 'SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(23): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 20:04:24 Asia/Kolkata] PHP Warning:  Undefined variable $mysqli in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 20:04:24 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php:15
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php(15): mysqli_query(NULL, 'SELECT * FROM `...')
+#1 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(23): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 15
+[22-Apr-2022 20:04:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "host" in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php:13
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(23): include()
+#1 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 13
+[22-Apr-2022 20:04:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "host" in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php:13
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(23): include()
+#1 C:\MAMP\htdocs\workspace\tacnix\library\template.php(35): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(17): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 13
+[22-Apr-2022 20:06:51 Asia/Kolkata] PHP Warning:  Undefined variable $host in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 14
+[22-Apr-2022 20:06:51 Asia/Kolkata] PHP Warning:  Undefined variable $user in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 14
+[22-Apr-2022 20:06:51 Asia/Kolkata] PHP Warning:  Undefined variable $password in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 14
+[22-Apr-2022 20:06:51 Asia/Kolkata] PHP Warning:  Undefined variable $db in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 14
+[22-Apr-2022 20:06:51 Asia/Kolkata] PHP Warning:  Undefined variable $port in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 14
+[22-Apr-2022 20:06:51 Asia/Kolkata] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 14
+[22-Apr-2022 20:09:34 Asia/Kolkata] PHP Parse error:  syntax error, unexpected variable "$result" in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 14
+[22-Apr-2022 20:09:48 Asia/Kolkata] PHP Parse error:  syntax error, unexpected variable "$result" in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 14
+[22-Apr-2022 20:10:30 Asia/Kolkata] PHP Parse error:  syntax error, unexpected variable "$mysqliresult" in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 14

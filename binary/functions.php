@@ -55,7 +55,7 @@ function Timezone($value) {
 }
 
 # Database Connection
-function dbconnect() {
+function mysqliconnect() {
 
   $user = MySQLi_Username;
   $password = MySQLi_Password;
@@ -64,19 +64,7 @@ function dbconnect() {
   $port = MySQLi_Port;
 
   $link = mysqli_init();
-  $mysqli = mysqli_real_connect(
-     $link,
-     $host,
-     $user,
-     $password,
-     $db,
-     $port
-  );
-
-
-
-  // Create connection
-  // $mysqli = mysqli_connect(MySQLi_Hostname, MySQLi_Username, MySQLi_Password, MySQLi_Database);
+  $mysqli = mysqli_real_connect($link, $host, $user, $password, $db, $port);
 
   // checking connection...
   if (mysqli_connect_errno()) {
@@ -84,21 +72,17 @@ function dbconnect() {
     exit();
   }
 
-  # Set the desired charset after establishing a connection
-  // $MySQLi_Charset = mysqli_character_set_name(MySQLi_Charset);
-  // echo "Default character set is: " . $MySQLi_Charset;
-
 }
 
 # Database Connection CLosing
-function dbclose() {
+function mysqliclose() {
   mysqli_close($mysqli);
-  }
+}
 
 # SElect Query Custom Function
-function selectquery($value) {
+function mysqliselect($mysqliquery) {
 
-  dbconnect();
+  mysqliconnect();
 
   // Perform query
   $result = mysqli_query($mysqli, $value);
@@ -107,18 +91,10 @@ function selectquery($value) {
     // Free result set
     mysqli_free_result($result);
   }
-  dbclose($mysqli);
+  mysqliclose($mysqli);
 }
 
-// function __posts() {
-//
-// }
-
 function ContactForm() {
-  /*
-   * CONFIGURE EVERYTHING HERE
-   */
-
   // an email address that will receive the email with the output of the form
   $sendTo = 'contact@tacnix.com';
 
@@ -127,10 +103,6 @@ function ContactForm() {
 
   // If something goes wrong, we will display this message.
   $errorMessage = 'There was an error while submitting the form. Please try again later';
-
-  /*
-   * LET'S DO THE SENDING
-   */
 
   // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
   error_reporting( E_ALL & ~E_NOTICE );

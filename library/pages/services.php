@@ -26,7 +26,7 @@
               <li class="sub-heading line-bg-left mb-25">Our Core Services</li>
               <li class="mb-15">Branding</li>
               <li class="mb-15">Consulting</li>
-              <li class="mb-15">Web Hosting</li>
+              <li class="mb-15">Marketing</li>
             </ul>
           </div>
         </div>
@@ -74,24 +74,24 @@
               <div class="col-lg-6  dsn-z-index-2 pr-0">
                 <div class="box-im h-100 ">
                   <div class="img-container h-100" data-dsn-grid="move-up">
-                    <img class="cover-bg-img " data-dsn-speed="2" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/rachel-claire.jpg" alt="">
+                    <img class="cover-bg-img " data-dsn-speed="2" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/branding.png" alt="">
                   </div>
                 </div>
               </div>
                 <div class="col-lg-6 pl-0 box-order">
                     <div class="box-info h-100 d-flex align-items-center pl-30  pt-50 pb-50 background-section ">
                         <div class="box-info-inner">
-                          <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1" data-dsn-duration="170%" data-dsn-move="0%">Tacnix</div>
+                          <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1" data-dsn-duration="170%" data-dsn-move="0%">Services</div>
                           <div class="d-flex text-left flex-column align-items-start">
                             <div class="mb-30">
                               <p class="sub-heading line-bg-left mb-15">Branding</p>
-                              <h2 class="section-title  title-cap">What we do in Branding!</h2>
+                              <h2 class="section-title  title-cap">Our Branding Services</h2>
                             </div>
                           </div>
                           <div class="d-flex border-top pt-30 mb-30">
                             <ul class="w-50 pr-10">
-                              <li class="lest-number mb-15 d-flex"><i class="fas fa-check-circle theme-color mr-15"></i><span class="sm-title-block">Web Development</span></li>
-                              <li class="lest-number d-flex"><i class="fas fa-check-circle theme-color mr-15"></i><span class="sm-title-block">Web Hosting</span></li>
+                              <li class="lest-number mb-15 d-flex"><i class="fas fa-check-circle theme-color mr-15"></i><span class="sm-title-block">Website Designing</span></li>
+                              <li class="lest-number d-flex"><i class="fas fa-check-circle theme-color mr-15"></i><span class="sm-title-block">Domain Registration</span></li>
                             </ul>
                             <ul class="w-50 pl-10">
                               <li class="lest-number mb-15 d-flex"><i class="fas fa-check-circle theme-color mr-15"></i><span class="sm-title-block">Graphic Designing</span></li>
@@ -127,18 +127,19 @@
                 <div class="col-lg-6 pr-0 box-order">
                     <div class="box-info h-100 d-flex align-items-center pr-30 pt-50 pb-50">
                         <div class="box-info-inner">
-                            <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1" data-dsn-duration="170%" data-dsn-move="0%">Diesel</div>
+                            <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1" data-dsn-duration="170%" data-dsn-move="0%">Services</div>
                             <div class="d-flex text-left flex-column align-items-start ">
                                 <div class="mb-30">
-                                    <p class="sub-heading line-bg-left mb-15">Some Feature</p>
-                                    <h2 class="section-title  title-cap">BUSINESS CONSULTING</h2>
+                                    <p class="sub-heading line-bg-left mb-15">Consulting</p>
+                                    <h2 class="section-title  title-cap">Business Consulting</h2>
                                 </div>
                             </div>
-                            <p class="max-w570  mb-10 border-top pt-30">Founded in 2000, Dsn Grid has become one of the best Digital Agency in ThemeForest Blue money going forward.</p>
-                            <p class="max-w570  border-bottom pb-30">but deploy to production. C-suite. First-order optimal strategies build on a culture of contribution and inclusion so those options</p>
-                            <a target="_blank" href="#" class="visit-site mt-30">
+                            <p class="max-w570  mb-10 border-top pt-30">We can scale our services to support change efforts ranging from tactical improvements through large scale transformation efforts.</p>
+                            <p class="max-w570  mb-10">Our business consultants are experienced leaders and practitioners who are customer-focused, are delivery-excellence driven, and can navigate and manage complex projects, working effectively across diverse business and technology organizations.</p>
+                            <p class="max-w570  border-bottom pb-30">Not sure what you need? Contact us to learn how to keep pace in an ever-changing digital world.</p>
+                            <a target="_blank" href="?page=contact" class="visit-site mt-30">
                                 <span class="inner-visit d-flex align-items-center">
-                                    <span class="text text-uppercase">Visit Website</span>
+                                    <span class="text text-uppercase">Contact Us</span>
                                     <span class="icon">
                                         <svg viewBox="0 0 40 40">
                                             <polyline class="path" points="14.6 17.45 20 22.85 25.4 17.45"></polyline>
@@ -166,8 +167,8 @@
         data-dsn-animate="section" data-dsn-duration="100%" data-dsn="color">
         <div class="container d-flex text-center flex-column align-items-center ">
             <div class="mb-70">
-                <p class="sub-heading mb-15 background-main p-5 d-inline-block">Most have theme </p>
-                <h2 class="section-title  title-cap">BUSINESS CONSULTING</h2>
+                <p class="sub-heading mb-15 background-main p-5 d-inline-block">Marketing</p>
+                <h2 class="section-title  title-cap">Online Marketing</h2>
                 <p class="max-w570 mt-15">We’ve designed a culture that allows our stewards to assimilate with our clients and bring.</p>
             </div>
         </div>
@@ -176,18 +177,18 @@
                 <div class="col-lg-6 pr-0 box-order">
                     <div class="box-info h-100 box-padding  background-main">
                         <div class="box-info-inner">
-                            <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1" data-dsn-duration="170%" data-dsn-move="0%">Diesel</div>
+                            <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1" data-dsn-duration="170%" data-dsn-move="0%">Services</div>
                             <div class=" mb-50 d-flex text-left flex-column align-items-start">
-                                <p class="sub-heading line-shap line-shap-after mb-15"><span class="line-bg-left">Project Manager</span></p>
-                                <h4 class="title-cap">Get Dsn Grid today and start buildingnext-generation websites in minutes!</h4>
+                                <p class="sub-heading line-shap line-shap-after mb-15"><span class="line-bg-left">Online Marketing</span></p>
+                                <h4 class="title-cap">Online Marketing Services Proven to Increase Leads, Sales & Revenue</h4>
                             </div>
                             <div class="box d-flex mb-30">
                                 <div class="box-img mr-20">
                                     <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/team/1.jpg" alt="">
                                 </div>
                                 <div class="content d-flex flex-column justify-content-center">
-                                    <h5 class="sm-title-block mb-10">Build powerful websites with Essentials</h5>
-                                    <p>We’ve designed a culture that allows our stewards to assimilate with our clients and bring.</p>
+                                    <h5 class="sm-title-block mb-10">Digital Competitive Analysis</h5>
+                                    <p>With a digital competitive analysis you'll get a market analysis of your website and three competitors.</p>
                                 </div>
                             </div>
 
@@ -196,8 +197,8 @@
                                     <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/team/2.jpg" alt="">
                                 </div>
                                 <div class="content d-flex flex-column justify-content-center">
-                                    <h5 class="sm-title-block mb-10">Build powerful websites with Essentials</h5>
-                                    <p>We’ve designed a culture that allows our stewards to assimilate with our clients and bring.</p>
+                                    <h5 class="sm-title-block mb-10">Search Engine Optimization (SEO)</h5>
+                                    <p>Your business needs to generate more website traffic, leads, and sales, you need SEO services.</p>
                                 </div>
                             </div>
 
@@ -206,8 +207,8 @@
                                     <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/team/3.jpg" alt="">
                                 </div>
                                 <div class="content d-flex flex-column justify-content-center">
-                                    <h5 class="sm-title-block mb-10">Build powerful websites with Essentials</h5>
-                                    <p>We’ve designed a culture that allows our stewards to assimilate with our clients and bring.</p>
+                                    <h5 class="sm-title-block mb-10">Social Media Marketing</h5>
+                                    <p>Making SMM an effective advertising strategy to grow leads and engage with your local community.</p>
                                 </div>
                             </div>
 
@@ -309,7 +310,7 @@
                                 </div>
                                 <div class="box-text">
                                     <h4 class="title-block mb-10">Mukunda Panchal</h4>
-                                    <h5 class="theme-color">Founder</h5>
+                                    <h5 class="theme-color">Creative Director</h5>
 
                                     <ul class="box-social mt-15">
                                         <li data-dsn="parallax"><a href="#">FB</a></li>
@@ -352,7 +353,7 @@
                                 </div>
                                 <div class="box-text">
                                     <h4 class="title-block mb-10">Namrata Madhu</h4>
-                                    <h5 class="theme-color">Co-Founder / Creative Director</h5>
+                                    <h5 class="theme-color">Head of Directors</h5>
                                     <ul class="box-social mt-15">
                                         <li data-dsn="parallax"><a href="#">FB</a></li>
                                         <li data-dsn="parallax"><a href="#">TW</a></li>
@@ -380,7 +381,7 @@
                 </div>
 
                 <div class="button-box d-flex justify-content-end align-items-center">
-                  <div><a href="?p=contact&from=servies" class="mt-30 effect-ajax dsn-button p-relative"><span class="dsn-border-rdu "></span>Contact Us</a></div>
+                  <div><a href="?page=contact&from=servies" class="mt-30 effect-ajax dsn-button p-relative"><span class="dsn-border-rdu "></span>Contact Us</a></div>
                 </div>
             </div>
         </div>

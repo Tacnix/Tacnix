@@ -14,7 +14,7 @@
                   <div class="d-block"></div>
                   <h1 class="title user-no-selection d-inline-block text-uppercase">Craft Elegant <br> Solutions</h1>
                   <div class="d-block"></div>
-                  <a href="#0" target="_blank" class="mt-30 dsn-button link-custom"><span class="dsn-border border-color-reverse-color"></span>Learn More</a>
+                  <!-- <a href="#0" target="_blank" class="mt-30 dsn-button link-custom"><span class="dsn-border border-color-reverse-color"></span>Learn More</a> -->
                 </div>
               </div>
             </div>
@@ -29,7 +29,7 @@
                   <div class="d-block"></div>
                   <h1 class="title user-no-selection d-inline-block text-uppercase">Crafting Digital <br> Experiences</h1>
                   <div class="d-block"></div>
-                  <a href="#0" target="_blank" class="mt-30 dsn-button link-custom"><span class="dsn-border border-color-reverse-color"></span>Learn More</a>
+                  <!-- <a href="#0" target="_blank" class="mt-30 dsn-button link-custom"><span class="dsn-border border-color-reverse-color"></span>Learn More</a> -->
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@
                   <div class="d-block"></div>
                   <h1 class="title user-no-selection d-inline-block text-uppercase">Highly Creative <br> Solutions</h1>
                   <div class="d-block"></div>
-                  <a href="#0" target="_blank" class="mt-30 dsn-button link-custom"><span class="dsn-border border-color-reverse-color"></span>Learn More</a>
+                  <!-- <a href="#0" target="_blank" class="mt-30 dsn-button link-custom"><span class="dsn-border border-color-reverse-color"></span>Learn More</a> -->
                 </div>
               </div>
             </div>
@@ -146,8 +146,8 @@
                                 </svg>
                               </div>
                               <div class="service-description">
-                                <h4 class="title-block mb-15">Website &amp; Hybrid Apps</h4>
-                                <p>All your dream come true. From Website Design tho Hybrid App Development all done here.</p>
+                                <h4 class="title-block mb-15">Branding</h4>
+                                <p>Name ideoligize, domain registring, graphic designing, competitor identifying, and many more branding services we provide.</p>
                               </div>
                             </div>
                         </div>
@@ -170,8 +170,8 @@
                                 </svg>
                               </div>
                               <div class="service-description">
-                                <h4 class="title-block mb-15">Web &amp; Hybrid App Development</h4>
-                                <p>Te qui alii inermis vivendum, an decore libris eum. Te mel dico alia wisi, cu vitae noluisse phaedrum.</p>
+                                <h4 class="title-block mb-15">Web &amp; Hybrid App</h4>
+                                <p>All your dream come true. From Website Design to Hybrid App Development all done here.</p>
                               </div>
                             </div>
                         </div>
@@ -319,110 +319,75 @@
             </div>
         </div>
     </section>
-    <!-- ========== End Service Section ========== -->
-
-    <!-- ========== Work Section ========== -->
-    <section class="work-section work-no-scale not-filter p-relative dsn-swiper over-hidden v-dark-head"
-        data-dsn-title="our Work"
-        data-dsn-option='{"slidesPerView":3,"autoplay":true,"centeredSlides":false}'>
+    <?php if (work >= 1 ) { ?>
+    <section class="work-section work-no-scale not-filter p-relative dsn-swiper over-hidden v-dark-head" data-dsn-title="our Work" data-dsn-option='{"slidesPerView":3,"autoplay":true,"centeredSlides":false}'>
         <div class="swiper-container" data-swiper-autoplay="5000">
             <div class="swiper-wrapper">
+              <div class="work-item  swiper-slide over-hidden">
+                <div class="box-img p-relative over-hidden" data-overlay="6">
+                  <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project1/1.jpg" alt="">
+                </div>
+                <div class="box-content">
+                  <div class="metas d-inline-block mb-15"><span> Product</span> <span>voice</span></div>
+                  <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work" href="project1.html">Maybe speaker</a></h4>
+                </div>
+              </div>
+              <div class="work-item  swiper-slide over-hidden">
+                <div class="box-img p-relative over-hidden" data-overlay="6">
+                  <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project2/1.jpg" alt="">
+                </div>
+                <div class="box-content">
+                  <div class="metas d-inline-block mb-15"><span> pen</span></div>
+                  <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work" href="project2.html">Yaren collection</a></h4>
+                </div>
+              </div>
 
-                <div class="work-item  swiper-slide over-hidden">
-                    <div class="box-img p-relative over-hidden" data-overlay="6">
-                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project1/1.jpg" alt="">
-                    </div>
-
-                    <div class="box-content">
-                        <div class="metas d-inline-block mb-15">
-                            <span> Product</span> <span>voice</span>
-                        </div>
-                        <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work" href="project1.html">Maybe
-                                speaker</a></h4>
-                    </div>
+              <div class="work-item  swiper-slide over-hidden">
+                <div class="box-img p-relative over-hidden" data-overlay="2">
+                  <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project4/1.jpg" alt="">
+                </div>
+                <div class="box-content">
+                  <div class="metas d-inline-block mb-15"><span> Architecture</span></div>
+                  <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work" href="project4.html">Principal Garden</a></h4>
+                </div>
+              </div>
+              <div class="work-item  swiper-slide over-hidden">
+                <div class="box-img p-relative over-hidden" data-overlay="6">
+                  <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project3/1.jpg" alt="">
+                </div>
+                <div class="box-content">
+                  <div class="metas d-inline-block mb-15">
+                    <span>induction</span>
+                  </div>
+                  <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work" href="project3.html">Huggl Power Pack</a></h4>
+                </div>
+              </div>
+              <div class="work-item  swiper-slide over-hidden">
+                <div class="box-img p-relative over-hidden" data-overlay="4">
+                  <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project6/1.jpg" alt="">
                 </div>
 
-                <div class="work-item  swiper-slide over-hidden">
-                    <div class="box-img p-relative over-hidden" data-overlay="6">
-                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project2/1.jpg" alt="">
-                    </div>
-
-                    <div class="box-content">
-                        <div class="metas d-inline-block mb-15">
-                            <span> pen</span>
-                        </div>
-                        <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work" href="project2.html">Yaren
-                                collection</a></h4>
-                    </div>
+                <div class="box-content">
+                  <div class="metas d-inline-block mb-15"><span>Photography</span></div>
+                  <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work" href="project6.html">Lengshuikeng</a></h4>
                 </div>
-
-                <div class="work-item  swiper-slide over-hidden">
-                    <div class="box-img p-relative over-hidden" data-overlay="2">
-                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project4/1.jpg" alt="">
-                    </div>
-
-                    <div class="box-content">
-                        <div class="metas d-inline-block mb-15">
-                            <span> Architecture</span>
-                        </div>
-                        <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work" href="project4.html">Principal
-                                Garden</a></h4>
-                    </div>
+              </div>
+              <div class="work-item  swiper-slide over-hidden">
+                <div class="box-img p-relative over-hidden" data-overlay="5">
+                  <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project5/1.jpg" alt="">
                 </div>
-
-                <div class="work-item  swiper-slide over-hidden">
-                    <div class="box-img p-relative over-hidden" data-overlay="6">
-                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project3/1.jpg" alt="">
-                    </div>
-
-                    <div class="box-content">
-                        <div class="metas d-inline-block mb-15">
-                            <span>induction</span>
-                        </div>
-                        <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work" href="project3.html">Huggl Power
-                                Pack</a></h4>
-                    </div>
+                <div class="box-content">
+                    <div class="metas d-inline-block mb-15"><span>Photography</span> <span> car</span></div>
+                    <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work" href="project5.html">Small Silver Car</a></h4>
                 </div>
-
-                <div class="work-item  swiper-slide over-hidden">
-                    <div class="box-img p-relative over-hidden" data-overlay="4">
-                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project6/1.jpg" alt="">
-                    </div>
-
-                    <div class="box-content">
-                        <div class="metas d-inline-block mb-15">
-                            <span>Photography</span>
-                        </div>
-                        <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work"
-                                href="project6.html">Lengshuikeng</a></h4>
-                    </div>
-                </div>
-
-                <div class="work-item  swiper-slide over-hidden">
-                    <div class="box-img p-relative over-hidden" data-overlay="5">
-                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/project/project5/1.jpg" alt="">
-                    </div>
-
-                    <div class="box-content">
-                        <div class="metas d-inline-block mb-15">
-                            <span>Photography</span> <span> car</span>
-                        </div>
-                        <h4 class="sec-title"><a class="effect-ajax" data-dsn-ajax="work" href="project5.html">Small Silver
-                                Car</a></h4>
-                    </div>
-                </div>
-
+              </div>
             </div>
         </div>
-
     </section>
-    <!-- ========== End Work Section ========== -->
-
-    <!-- ========== facts-section ========== -->
+    <?php } ?>
     <div class="facts-section p-relative section-padding background-section  over-hidden">
         <div class="bg-circle-dotted"></div>
         <div class="bg-circle-dotted bg-circle-dotted-right"></div>
-
         <div class="container">
             <div class="d-grid grid-lg-4 grid-sm-2">
                 <div class="facts-item">
@@ -431,21 +396,18 @@
                         <h6 class="sm-title-block v-middle w-100">Happy Clients</h6>
                     </div>
                 </div>
-
                 <div class="facts-item">
                     <div class="text-center p-relative">
                         <span class="number">63</span>
                         <h6 class="sm-title-block v-middle w-100">Working hours were spent</h6>
                     </div>
                 </div>
-
                 <div class="facts-item">
                     <div class="text-center p-relative">
                         <span class="number">51</span>
                         <h6 class="sm-title-block v-middle w-100">Succeeded Projects</h6>
                     </div>
                 </div>
-
                 <div class="facts-item">
                     <div class="text-center p-relative">
                         <span class="number">13</span>
@@ -455,11 +417,8 @@
             </div>
         </div>
     </div>
-    <!-- ========== end facts-section ========== -->
-
-    <!-- ========== blog Section ========== -->
     <?php
-    if (post >= 1 ) {
+    if (post >= 1 ) { // blog posts
     ?>
     <section class="our-blog  our-blog-classic not-filter section-margin p-relative dsn-swiper"
         data-dsn-title="our Blog" data-dsn-animate="section"
@@ -513,90 +472,66 @@
                             </div>
                         </div>
                     </div>
-
-
-                    <div class="swiper-slide blog-classic-item">
-                        <div class=" blog-item p-relative d-flex align-items-center h-100 w-100">
-                            <div class="box-meta">
-                                <div class="entry-date">
-                                    <span class="author">Dsn Grid</span>
-                                    <a href="#">March , 17th 2020</a>
-                                </div>
-                            </div>
-
-                            <div class="box-img over-hidden">
-                                <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/blog/3.jpg" alt="">
-                            </div>
-                            <div class="box-content p-relative">
-
-                                <div class="box-content-body">
-                                    <div class="metas">
-                                        <span>Creative</span>
-                                        <span>Travel</span>
-                                    </div>
-                                    <h4 class="title-block">
-                                        <a href="#">The Day I Lost My Child in Charles </a>
-                                    </h4>
-                                    <a href="#" class="link-vist p-relative mt-20">
-
-                                        <span class="link-vist-text">Load More</span>
-
-                                        <div class="link-vist-arrow">
-                                            <svg viewBox="0 0 80 80">
-                                                <polyline points="19.89 15.25 64.03 15.25 64.03 59.33">
-                                                </polyline>
-                                                <line x1="64.03" y1="15.25" x2="14.03" y2="65.18">
-                                                </line>
-                                            </svg>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+                  <div class="swiper-slide blog-classic-item">
+                    <div class=" blog-item p-relative d-flex align-items-center h-100 w-100">
+                      <div class="box-meta">
+                        <div class="entry-date">
+                          <span class="author">Dsn Grid</span>
+                          <a href="#">March , 17th 2020</a>
                         </div>
-                    </div>
-
-                    <div class="swiper-slide blog-classic-item">
-                        <div class=" blog-item p-relative d-flex align-items-center h-100 w-100">
-                            <div class="box-meta">
-                                <div class="entry-date">
-                                    <span class="author">Dsn Grid</span>
-                                    <a href="#">March , 17th 2020</a>
-                                </div>
+                      </div>
+                      <div class="box-img over-hidden">
+                          <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/blog/3.jpg" alt="">
+                      </div>
+                      <div class="box-content p-relative">
+                        <div class="box-content-body">
+                          <div class="metas">
+                            <span>Creative</span>
+                            <span>Travel</span>
+                          </div>
+                          <h4 class="title-block"><a href="#">The Day I Lost My Child in Charles </a></h4>
+                          <a href="#" class="link-vist p-relative mt-20">
+                            <span class="link-vist-text">Load More</span>
+                            <div class="link-vist-arrow">
+                              <svg viewBox="0 0 80 80">
+                                <polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline>
+                                <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line>
+                              </svg>
                             </div>
-
-                            <div class="box-img over-hidden">
-                                <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/blog/2.jpg" alt="">
-                            </div>
-                            <div class="box-content p-relative">
-
-                                <div class="box-content-body">
-                                    <div class="metas">
-                                        <span>Health</span>
-                                    </div>
-                                    <h4 class="title-block">
-                                        <a href="#">Relationships Aren’t Easy</a>
-                                    </h4>
-                                    <a href="#" class="link-vist p-relative mt-20">
-
-                                        <span class="link-vist-text">Load More</span>
-
-                                        <div class="link-vist-arrow">
-                                            <svg viewBox="0 0 80 80">
-                                                <polyline points="19.89 15.25 64.03 15.25 64.03 59.33">
-                                                </polyline>
-                                                <line x1="64.03" y1="15.25" x2="14.03" y2="65.18">
-                                                </line>
-                                            </svg>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+                          </a>
                         </div>
+                      </div>
                     </div>
-
-
+                  </div>
+                  <div class="swiper-slide blog-classic-item">
+                    <div class=" blog-item p-relative d-flex align-items-center h-100 w-100">
+                      <div class="box-meta">
+                        <div class="entry-date">
+                          <span class="author">Dsn Grid</span>
+                          <a href="#">March , 17th 2020</a>
+                        </div>
+                      </div>
+                      <div class="box-img over-hidden">
+                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/blog/2.jpg" alt="">
+                      </div>
+                      <div class="box-content p-relative">
+                          <div class="box-content-body">
+                            <div class="metas"><span>Health</span></div>
+                            <h4 class="title-block"><a href="#">Relationships Aren’t Easy</a></h4>
+                            <a href="#" class="link-vist p-relative mt-20">
+                              <span class="link-vist-text">Load More</span>
+                              <div class="link-vist-arrow">
+                                <svg viewBox="0 0 80 80">
+                                  <polyline points="19.89 15.25 64.03 15.25 64.03 59.33"></polyline>
+                                  <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line>
+                                </svg>
+                              </div>
+                            </a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
                 <div class="dsn-pagination mt-30 dsn-container d-flex justify-content-between">
                     <div class="swiper-next">
                         <div class="next-container">
@@ -630,123 +565,89 @@
                 </div>
             </div>
         </div>
-
     </section>
-    <?php } ?>
-    <!-- ========== End blog Section ========== -->
-
-    <!-- ========== brand Section ========== -->
-    <div class="brand-client section-padding full-width v-light dsn-swiper" data-dsn-title="our clients"
-        data-dsn-option='{"slidesPerView":4,"spaceBetween":0,"centeredSlides":false,"autoplay":true }'>
+    <?php
+    }
+    if (brand >= 1) {
+    ?>
+    <div class="brand-client section-padding full-width v-light dsn-swiper" data-dsn-title="our clients" data-dsn-option='{"slidesPerView":4,"spaceBetween":0,"centeredSlides":false,"autoplay":true }'>
         <div class="container mb-70 d-flex text-center flex-column align-items-center">
-            <p class="sub-heading line-shap line-shap-after mb-15">
-                <span class="line-bg-left">OUR CLIENTS</span>
-
-            </p>
-            <h2 class="section-title">Your success, <br> our reputation</h2>
+          <p class="sub-heading line-shap line-shap-after mb-15"><span class="line-bg-left">OUR CLIENTS</span></p>
+          <h2 class="section-title">Your success, <br> our reputation</h2>
         </div>
-
         <div class="container ">
             <div class="wrapper-client">
                 <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide logo-box border-top dsn-up">
-                            <div class="logo-box-inner">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo/1.png" alt="">
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide logo-box border-top dsn-up">
-                            <div class="logo-box-inner">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo/2.png" alt="">
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide logo-box border-top dsn-up">
-                            <div class="logo-box-inner">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo/3.png" alt="">
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide logo-box border-top dsn-up">
-                            <div class="logo-box-inner">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo/4.png"  alt="">
-                            </div>
-                        </div>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide logo-box border-top dsn-up">
+                      <div class="logo-box-inner">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo/1.png" alt="">
+                      </div>
                     </div>
+                    <div class="swiper-slide logo-box border-top dsn-up">
+                      <div class="logo-box-inner">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo/2.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-slide logo-box border-top dsn-up">
+                      <div class="logo-box-inner">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo/3.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-slide logo-box border-top dsn-up">
+                      <div class="logo-box-inner">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="<?=img?>/logo/4.png"  alt="">
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
                 <div class="dsn-pagination w-100 mt-30 dsn-container d-flex justify-content-between">
                     <div class="swiper-next">
-                        <div class="next-container">
-                            <div class="container-inner">
-                                <div class="triangle"></div>
-                                <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24"
-                                    height="24" viewBox="0 0 24 24">
-                                    <g class="circle-wrap" fill="none" stroke-width="1"
-                                        stroke-linejoin="round" stroke-miterlimit="10">
-                                        <circle cx="12" cy="12" r="10.5"></circle>
-                                    </g>
-                                </svg>
-                            </div>
+                      <div class="next-container">
+                        <div class="container-inner">
+                          <div class="triangle"></div>
+                          <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g class="circle-wrap" fill="none" stroke-width="1" stroke-linejoin="round" stroke-miterlimit="10">
+                              <circle cx="12" cy="12" r="10.5"></circle>
+                            </g>
+                          </svg>
                         </div>
+                      </div>
                     </div>
                     <div class="swiper-pagination"></div>
                     <div class="swiper-prev">
-                        <div class="prev-container">
-                            <div class="container-inner">
-                                <div class="triangle"></div>
-                                <svg class="circle" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24">
-                                    <g class="circle-wrap" fill="none" stroke-width="1"
-                                        stroke-linejoin="round" stroke-miterlimit="10">
-                                        <circle cx="12" cy="12" r="10.5"></circle>
-                                    </g>
-                                </svg>
-                            </div>
+                      <div class="prev-container">
+                        <div class="container-inner">
+                          <div class="triangle"></div>
+                          <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <g class="circle-wrap" fill="none" stroke-width="1" stroke-linejoin="round" stroke-miterlimit="10">
+                              <circle cx="12" cy="12" r="10.5"></circle>
+                            </g>
+                          </svg>
                         </div>
+                      </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
-    <!-- ========== End brand Section Section ========== -->
-
-
-    <!-- ==========  next page  ========== -->
+    <?php
+    }
+    ?>
     <section class="next-page p-relative section-padding  border-top">
-        <div class="bg-circle-dotted"></div>
-        <div class="bg-circle-dotted bg-circle-dotted-right"></div>
-        <div class="container">
-            <div class="c-wapp d-flex justify-content-between">
-                <div class="d-flex flex-column">
-                    <p class="sub-heading line-shap line-shap-after ">
-                        <span class="line-bg-left">
-                            Don't be weird.
-                        </span>
-                    </p>
-                    <h2 class="section-title max-w750 mt-15">
-                        Would you like more information or
-                        do you have a question?
-
-                    </h2>
-
-
-                </div>
-
-                <div class="button-box d-flex justify-content-end align-items-center">
-                    <div>
-                        <a href="contact.html" class="mt-30 effect-ajax dsn-button p-relative">
-                            <span class="dsn-border-rdu "></span>Contact Us
-                        </a>
-                    </div>
-                </div>
-
-            </div>
+      <div class="bg-circle-dotted"></div>
+      <div class="bg-circle-dotted bg-circle-dotted-right"></div>
+      <div class="container">
+        <div class="c-wapp d-flex justify-content-between">
+          <div class="d-flex flex-column">
+            <p class="sub-heading line-shap line-shap-after "><span class="line-bg-left">Don't be weird.</span></p>
+            <h2 class="section-title max-w750 mt-15">Would you like more information or do you have a question?</h2>
+          </div>
+          <div class="button-box d-flex justify-content-end align-items-center">
+            <div><a href="?page=contact&from=home" class="mt-30 effect-ajax dsn-button p-relative"><span class="dsn-border-rdu "></span>Contact Us</a></div>
+          </div>
         </div>
+      </div>
     </section>
-    <!-- ========== End next page ========== -->
 </div>
 <?php if (function_exists(_footer())) { _footer(); } ?>

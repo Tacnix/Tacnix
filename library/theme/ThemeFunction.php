@@ -64,11 +64,12 @@ function scrolltop() { ?>
     <nav class="accent-menu dsn-container main-navigation p-absolute  w-100  d-flex align-items-baseline ">
       <div class="menu-cover-title">Menu</div>
       <ul class="extend-container p-relative d-flex flex-column justify-content-center h-100">
-        <li><a href="?page=about"><span class="dsn-title-menu">About</span><span class="dsn-meta-menu">01</span><span class="dsn-bg-arrow"></span></a></li>
-        <li><a href="?page=services"><span class="dsn-title-menu">Services</span><span class="dsn-meta-menu">02</span><span class="dsn-bg-arrow"></span></a></li>
-        <!-- <li><a href="?page=projects"><span class="dsn-title-menu">Projects</span><span class="dsn-meta-menu">03</span><span class="dsn-bg-arrow"></span></a></li> -->
-        <!-- <li><a href="?page=blog"><span class="dsn-title-menu">Blog</span><span class="dsn-meta-menu">04</span><span class="dsn-bg-arrow"></span></a></li> -->
-        <li><a href="?page=contact" class="user-no-selection"><span class="dsn-title-menu">Contact</span><span class="dsn-meta-menu">03</span><span class="dsn-bg-arrow"></span></a></li>
+        <li><a href="?page=about"><span class="dsn-title-menu">About</span><span class="dsn-bg-arrow"></span></a></li>
+        <li><a href="?page=services"><span class="dsn-title-menu">Services</span><span class="dsn-bg-arrow"></span></a></li>
+        <?php if (work >= 1 ) { ?><li><a href="?page=projects"><span class="dsn-title-menu">Projects</span><span class="dsn-bg-arrow"></span></a></li><? } ?>
+        <?php if (post >= 1 ) { ?><li><a href="?page=blog"><span class="dsn-title-menu">Blog</span><span class="dsn-bg-arrow"></span></a></li><? } ?>
+        <li><a href="?page=contact" class="user-no-selection"><span class="dsn-title-menu">Contact</span><span class="dsn-bg-arrow"></span></a></li>
+        <!-- <span class="dsn-meta-menu">03</span> -->
       </ul>
       <div class="container-content  p-absolute h-100 left-60 d-flex flex-column justify-content-center">
         <div class="nav__info">
@@ -176,6 +177,10 @@ function scrolltop() { ?>
           <div class="box-info-contact">
             <ul>
               <li>
+                <h5 class="title-block mb-15">Address</h5>
+                <p class="text-p"><?=contact_address?></p>
+              </li>
+              <li>
                 <h5 class="title-block mb-15">Contact</h5>
                 <p class="text-p"><?=contact_number?></p>
                 <div class="over-hidden mt-5">
@@ -183,19 +188,15 @@ function scrolltop() { ?>
                 </div>
               </li>
               <li>
-                <h5 class="title-block mb-15">Address</h5>
-                <p class="text-p"><?=contact_address?></p>
-              </li>
-              <li>
                 <h5 class="title-block mb-15">Follow</h5>
                 <div class="social-item over-hidden">
-                  <a class="link-hover" data-hover-text="Instagram." href="#" target="_blank" rel="nofollow">Instagram.</a>
+                  <a class="link-hover" data-hover-text="Instagram." href="htttps://www.instagram.com/tacnix" target="_blank" rel="nofollow">Instagram.</a>
                 </div>
                 <div class="social-item over-hidden">
-                  <a class="link-hover" data-hover-text="Facebook." href="#" target="_blank" rel="nofollow">Facebook.</a>
+                  <a class="link-hover" data-hover-text="Facebook." href="htttps://www.facebook.com/tacnix" target="_blank" rel="nofollow">Facebook.</a>
                 </div>
                 <div class="social-item over-hidden">
-                  <a class="link-hover" data-hover-text="YouTube." href="#" target="_blank" rel="nofollow">YouTube.</a>
+                  <a class="link-hover" data-hover-text="YouTube." href="htttps://twitter.com/Tacnix1" target="_blank" rel="nofollow">YouTube.</a>
                 </div>
               </li>
             </ul>
