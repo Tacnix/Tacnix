@@ -31,8 +31,7 @@
                         <div class="section-title"><h4>Keep Your Business Safe & Ensure High Availability</h4></div>
                     </div>
                 </div>
-                 Tacnix is also providing web hosting and recognize as the IT Service provider.  We see it as an important part of our service to understand our customer's requirement and meet their needs. We aim is "complete customer satisfaction". We have happy and satisfied clients spread all over the world. Whether you want an attractive compact budget website or a dynamic, e-commerce portals, we have a solution for it.  We guide our clients through a step-by-step process to ensure their effective web presence. We are located at Mumbai, Maharastra. Our online support team extends their service through out the daytime.
-
+                 <!-- Tacnix is also providing web hosting and recognize as the IT Service provider.  We see it as an important part of our service to understand our customer's requirement and meet their needs. We aim is "complete customer satisfaction". We have happy and satisfied clients spread all over the world. Whether you want an attractive compact budget website or a dynamic, e-commerce portals, we have a solution for it.  We guide our clients through a step-by-step process to ensure their effective web presence. We are located at Mumbai, Maharastra. Our online support team extends their service through out the daytime. -->
                 <div class="col-lg-6">
                     <div class="box-right">
                         <p class="max-w570 dsn-up mb-15 ">Tacnix established in the year of 2011 with a vision to provide Internet Solutions with comprehensive range of web services like Web Designing, Domain Name Registration, Web Hosting, E-Mail Solutions & SSL Certificates, &amp; more. We gained recognition with high quality projects on the local Indian market and as well as outside of India too.</p>
