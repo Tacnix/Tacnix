@@ -28,6 +28,18 @@
      }
  }
 
+ function mysqlilog($logmsg) {
+     $logfile = "logs";
+     
+     if (!file_exists($logfile)) {
+         // create directory/folder uploads.
+         mkdir($logfile, 0777, true);
+     }
+
+     $logfile_data = $logfile.'/log_' . date('d-M-Y') . '.log';
+     file_put_contents($logfile_data, $logmsg . "\n", FILE_APPEND);
+ }
+
 
 function CLeanURL() {
 
@@ -52,46 +64,6 @@ function Timezone($value) {
     // Set the defined constant to the prebuilt function.
     date_default_timezone_set($value);
   }
-}
-
-# Database Connection
-function mysqliconnect() {
-
-  $user = MySQLi_Username;
-  $password = MySQLi_Password;
-  $db = MySQLi_Database;
-  $host = MySQLi_Hostname;
-  $port = MySQLi_Port;
-
-  $link = mysqli_init();
-  $mysqli = mysqli_real_connect($link, $host, $user, $password, $db, $port);
-
-  // checking connection...
-  if (mysqli_connect_errno()) {
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
-    exit();
-  }
-
-}
-
-# Database Connection CLosing
-function mysqliclose() {
-  mysqli_close($mysqli);
-}
-
-# SElect Query Custom Function
-function mysqliselect($mysqliquery) {
-
-  mysqliconnect();
-
-  // Perform query
-  $result = mysqli_query($mysqli, $value);
-  if (!$result) {
-    echo "Returned rows are: " . mysqli_num_rows($result);
-    // Free result set
-    mysqli_free_result($result);
-  }
-  mysqliclose($mysqli);
 }
 
 function ContactForm() {

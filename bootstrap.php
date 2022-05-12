@@ -13,5 +13,6 @@ define('binary', path . ds . 'binary');
 if (file_exists(binary . ds . 'salts.php')) { require binary . ds . 'salts.php'; }
 if (file_exists(binary . ds . 'defined.php')) { require binary . ds . 'defined.php'; }
 if (file_exists(binary . ds . 'environment.php')) { require binary . ds . 'environment.php'; }
+if (file_exists(binary . ds . 'config.php')) { require binary . ds . 'config.php'; }
 if (file_exists(binary . ds . 'functions.php')) { require binary . ds . 'functions.php'; }
 if (file_exists(binary . ds . 'core.php')) { require binary . ds . 'core.php'; }

@@ -49,13 +49,13 @@ if ($mysqli->connect_error) {
 }
 // echo "Connected successfully";
 
-$result = $mysqli->query('SELECT * FROM `serials`');
+$result = $mysqli->query('SELECT * FROM `projects`');
 
 // Perform query
 if (!$result) {
   echo 'Error: '. $mysqli->error;
 } else {
-
+  echo 'There is something... coming soon!';
   while ($row = $result -> fetch_row()) {
     // printf ('<div style="border: 1px solid #000; margin: 10px 50px; padding: 10px; display: block; background: #fff;"> <i>%s</i> <h3>%s</h3> <p>%s</p></div>', $row[1], $row[2], $row[3]);
 

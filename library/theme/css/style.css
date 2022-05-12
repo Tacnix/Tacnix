@@ -33,12 +33,14 @@
 
  THEME COLORS: 3F5EA4, E5B348, 385FCD, 14BFB5, DARK: 96C7C1, LIGHT: 678983
 
+ CUSTOM THEME COLOR PALETTE: #001E6C (used in light theme), #035397 (used in dark theme), #E8630A, #FCD900
+ CUSTOM THEME COLOR PALETTE: #112B3C, #205375, #F66B0E, #EFEFEF
  GRADIANT: B0CB1F, 97AE1C, 75861C, 6A7A14, 434D0C || 788E07
 -------------------------------------------------------------*/
 :root, :root .v-light {
   --bg-color: #f9f9f9;
   --assistant-color: #e6e6e6;
-  --theme-color: #4081F7;
+  --theme-color: #E8630A;
   --font-color: #000;
   --heading-color: #000;
   --border-color: #bebebe;
@@ -50,7 +52,7 @@
 :root .v-dark, :root .v-dark-head {
   --bg-color: #000;
   --assistant-color: #101010;
-  --theme-color: #3493BF;
+  --theme-color: #FCD900;
   --font-color: #bbb;
   --heading-color: #fff;
   --border-color: rgba(255, 255, 255, 0.07);
