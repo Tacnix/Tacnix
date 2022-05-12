@@ -11,19 +11,37 @@
 <div class="wrapper over-hidden">
   <div class="work-inner work-hover work d-flex dsn-load-animate" data-fx="1">
     <?php
-    $mysqlilink = mysqliconnect();
-    $mysqliquery = 'SELECT * FROM `projects`';
-    $mysqliresult = mysqli_query($mysqli, $mysqliquery);
-    if (!$mysqliresult) { echo 'Error: '. mysqli_error($mysqli); } else if (!empty($mysqliresult)) {
-      while ($row = $mysqliresult -> fetch_row())
-      { printf (
-          '<div class="work__item pt-80 pb-80 border-bottom">
-          <a href="?page=portfolio&getid=%s&project=%s&client=%s" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>/project/project_img.jpg"><span class="metas mb-25"><span> %s </span></span><h2 class="work__item-text"><span class="work__item-textinner title">%s</span></h2></a>
-        </div>', $row[1], $row[2], $row[3], $row[4], $row[3]
-      ); }
-      mysqli_free_result($mysqliresult);
+    $MySQLiConnect = MySQLi_connect(MySQLi_Hostname, MySQLi_Username, MySQLi_Password, MySQLi_Database);
+    // Check connection
+    if (!mysqli_connect_errno()) {
+      $logmsg = "MySQLi Database Connected successfully!";
+
+      if ($MySQLiResult = mysqli_query($MySQLiConnect, 'SELECT * FROM `projects`')) {
+
+        if (!$MySQLiResult) {
+          $logmsg = 'Error: '. mysqli_error($MySQLiConnect);
+          echo 'Error: '. mysqli_error($MySQLiConnect);
+        } else if (!empty($MySQLiResult)) {
+          // Fetch one and one row
+          while ($MySQLiRow = mysqli_fetch_row($MySQLiResult)) {
+            printf (
+              '<div class="work__item pt-80 pb-80 border-bottom">
+              <a href="?page=portfolio&getid=%s&project=%s&client=%s" class="effect-ajax" data-dsn-ajax="work-hover" data-img="<?=img?>%s"><span class="metas mb-25"><span> %s </span></span><h2 class="work__item-text"><span class="work__item-textinner title">%s</span></h2></a>
+            </div>', $MySQLiRow[1], $MySQLiRow[2], $MySQLiRow[3], $MySQLiRow[10], $MySQLiRow[2], $MySQLiRow[3]
+            );
+          }
+        }
+      }
+      mysqli_free_result($MySQLiResult);
+    } else {
+      $logmsg = "Failed to connect to MySQL: " . mysqli_connect_errno();
+      die("Failed to connect to MySQL: " . mysqli_connect_errno());
+      exit();
     }
-    mysqli_close($mysqli); ?>
+
+    mysqli_close($MySQLiConnect);
+    ?>
+
   </div>
 
   <!-- ==========  next page  ========== -->

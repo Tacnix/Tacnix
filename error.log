@@ -536,3 +536,7 @@ Stack trace:
 #4 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
 #5 {main}
   thrown in C:\MAMP\htdocs\workspace\tacnix\library\pages\portfolio.php on line 14
+[12-May-2022 21:30:36 Asia/Kolkata] PHP Warning:  Undefined variable $template in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 48
+[12-May-2022 21:30:42 Asia/Kolkata] PHP Warning:  Undefined variable $template in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 48
+[12-May-2022 21:30:43 Asia/Kolkata] PHP Warning:  Undefined variable $template in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 48
+[12-May-2022 21:30:48 Asia/Kolkata] PHP Warning:  Undefined variable $template in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 48

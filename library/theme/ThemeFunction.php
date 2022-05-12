@@ -66,7 +66,7 @@ function scrolltop() { ?>
       <ul class="extend-container p-relative d-flex flex-column justify-content-center h-100">
         <li><a href="?page=about"><span class="dsn-title-menu">About</span><span class="dsn-bg-arrow"></span></a></li>
         <li><a href="?page=services"><span class="dsn-title-menu">Services</span><span class="dsn-bg-arrow"></span></a></li>
-        <?php if (work >= 1 ) { ?><li><a href="?page=projects"><span class="dsn-title-menu">Projects</span><span class="dsn-bg-arrow"></span></a></li><? } ?>
+        <?php if (work >= 1 ) { ?><li><a href="?page=portfolio"><span class="dsn-title-menu">Portfolio</span><span class="dsn-bg-arrow"></span></a></li><? } ?>
         <?php if (post >= 1 ) { ?><li><a href="?page=blog"><span class="dsn-title-menu">Blog</span><span class="dsn-bg-arrow"></span></a></li><? } ?>
         <li><a href="?page=contact" class="user-no-selection"><span class="dsn-title-menu">Contact</span><span class="dsn-bg-arrow"></span></a></li>
         <!-- <span class="dsn-meta-menu">03</span> -->
