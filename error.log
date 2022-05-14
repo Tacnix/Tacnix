@@ -540,3 +540,43 @@ Stack trace:
 [12-May-2022 21:30:42 Asia/Kolkata] PHP Warning:  Undefined variable $template in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 48
 [12-May-2022 21:30:43 Asia/Kolkata] PHP Warning:  Undefined variable $template in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 48
 [12-May-2022 21:30:48 Asia/Kolkata] PHP Warning:  Undefined variable $template in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 48
+[13-May-2022 03:52:10 Asia/Kolkata] PHP Warning:  Undefined variable $result in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 52
+[13-May-2022 03:52:10 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, null given in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php:52
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(52): mysqli_fetch_array(NULL, 1)
+#1 C:\MAMP\htdocs\workspace\tacnix\library\template.php(22): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(18): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 52
+[13-May-2022 04:06:45 Asia/Kolkata] PHP Warning:  Undefined variable $result in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 52
+[13-May-2022 04:06:45 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, null given in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php:52
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(52): mysqli_fetch_array(NULL, 1)
+#1 C:\MAMP\htdocs\workspace\tacnix\library\template.php(22): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(18): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 52
+[13-May-2022 04:06:46 Asia/Kolkata] PHP Warning:  Undefined variable $result in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 52
+[13-May-2022 04:06:46 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, null given in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php:52
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(52): mysqli_fetch_array(NULL, 1)
+#1 C:\MAMP\htdocs\workspace\tacnix\library\template.php(22): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(18): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 52
+[13-May-2022 04:06:46 Asia/Kolkata] PHP Warning:  Undefined variable $result in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 52
+[13-May-2022 04:06:46 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, null given in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php:52
+Stack trace:
+#0 C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php(52): mysqli_fetch_array(NULL, 1)
+#1 C:\MAMP\htdocs\workspace\tacnix\library\template.php(22): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\workspace\tacnix\binary\core.php(33): require('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\workspace\tacnix\bootstrap.php(18): require('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 52
