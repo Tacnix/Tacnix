@@ -14,7 +14,7 @@ if ( isset($_GET['project']) ) { $project = htmlspecialchars($_GET['page']); } e
 if ( isset($_GET['cid']) ) { $client = htmlspecialchars($_GET['page']); } else { $client = 'null'; }
 
 ?>
-<body class="v-dark dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
+<body class="v-light dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
 <?php
 if (function_exists(preloader())) {preloader();}
 if (function_exists(mainmenu())) {mainmenu();}
