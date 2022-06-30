@@ -580,3 +580,15 @@ Stack trace:
 #4 C:\MAMP\htdocs\workspace\tacnix\index.php(18): require_once('C:\\MAMP\\htdocs\\...')
 #5 {main}
   thrown in C:\MAMP\htdocs\workspace\tacnix\library\theme\htmlbody.php on line 52
+[21-May-2022 16:45:30 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586
+[21-May-2022 16:46:14 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586
+[23-May-2022 18:35:45 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586
+[23-May-2022 18:36:01 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586
+[23-May-2022 18:56:21 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586
+[23-May-2022 18:58:37 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586
+[23-May-2022 20:55:49 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586
+[23-May-2022 20:56:17 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586
+[24-May-2022 03:33:08 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586
+[24-May-2022 03:33:23 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586
+[24-May-2022 03:33:44 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586
+[27-Jun-2022 20:38:35 Asia/Kolkata] PHP Warning:  Undefined variable $logmsg in C:\MAMP\htdocs\workspace\tacnix\library\pages\homepage.php on line 586

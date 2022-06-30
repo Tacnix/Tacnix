@@ -30,7 +30,7 @@ define('js', themes . 'js');
 // Temp Defined Values.
 define ('post','0');
 define ('testimonial','0');
-define ('work','1');
+define ('work','0');
 define ('brand','0');
 define ('awards','0');
 define ('team','0');

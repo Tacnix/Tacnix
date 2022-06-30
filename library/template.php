@@ -10,11 +10,9 @@ if (file_exists(theme . ds . 'htmlhead.php'))
 { include (theme . ds . 'htmlhead.php'); }
 
 if ( isset($_GET['page']) ) {  $page = htmlspecialchars($_GET['page']); } else { $page = 'home'; }
-if ( isset($_GET['project']) ) { $project = htmlspecialchars($_GET['page']); } else { $project = 'null'; }
-if ( isset($_GET['cid']) ) { $client = htmlspecialchars($_GET['page']); } else { $client = 'null'; }
 
 ?>
-<body class="v-light dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
+<body class="v-dark dsn-line-style dsn-effect-scroll dsn-cursor-effect dsn-ajax">
 <?php
 if (function_exists(preloader())) {preloader();}
 if (function_exists(mainmenu())) {mainmenu();}

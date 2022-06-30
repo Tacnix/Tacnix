@@ -110,7 +110,7 @@ mysqlilog("************** Start Log For Day : '" . $logtime . "' of file *******
                 <h2 class="section-title">WE ARE , <br>TACNIX</h2>
               </div>
               <h5 class="sm-title-block mb-30">We’re a creative agency with an expertise in make custom websites.</h5>
-              <p>Tacnix is a well-known company, founded in 2011. Specializing across various areas of the Branding, Website Designing, Web &amp; App Development, and Digital Marketing industry. Based in India, with an office in Mumbai, Maharastra, we cater to the requirements of our clients in 19+ countries, across all 6 continents.</p>
+              <p>Tacnix specializing across various areas of the Branding, Consulting, and Marketing industry. Based in India, with an office in Mumbai, Maharastra, we cater to the requirements of our clients in 19+ countries, across all 6 continents.</p>
               <a href="?page=about" class="mt-30 effect-ajax dsn-button"><span class="dsn-border border-color-reverse-color"></span>About Us</a>
             </div>
           </div>

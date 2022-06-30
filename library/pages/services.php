@@ -27,6 +27,7 @@
               <li class="mb-15">Branding</li>
               <li class="mb-15">Consulting</li>
               <li class="mb-15">Marketing</li>
+              <li class="mb-15">GSK Services</li>
             </ul>
           </div>
         </div>

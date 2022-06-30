@@ -20,15 +20,7 @@
           break;
       // Portfolio 03
         case 'portfolio':
-            if (file_exists(pages . ds . 'portfolio.php')) {
-              include (pages . ds . 'portfolio.php');
-
-              // add database here using "while" loop and
-              // then use template files in cases as per
-              // the retreved database value of template.
-
-              
-            }
+            if (file_exists(pages . ds . 'portfolio.php')) { include (pages . ds . 'portfolio.php'); }
             else { if (file_exists(pages . ds . '404.php')) include (pages . ds . '404.php'); }
           break;
       // Blog 04
