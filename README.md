@@ -1,6 +1,9 @@
-# &lt;/tacnix&gt;
+
+**&lt;/tacnix&gt;**
 
 ---
+
+# Coming Soon
 
 Re-designing a Website in PHP & MySQL using HTML & CSS template are designed by someone else, but converting it for all automatic process of the website.
 
@@ -9,8 +12,9 @@ Re-designing a Website in PHP & MySQL using HTML & CSS template are designed by 
 ## Links:
 
 **Tacnix Websites**:
-HTTPS: [https://www.tacnix.com](https://www.tacnix.com)
-HTTP: [http://www.tacnix.com](http://www.tacnix.com)
+
+- HTTPS: [https://www.tacnix.com](https://www.tacnix.com)
+- HTTP: [http://www.tacnix.com](http://www.tacnix.com)
 
 ---
 
