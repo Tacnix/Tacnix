@@ -14,7 +14,6 @@ Re-designing a Website in PHP & MySQL using HTML & CSS template are designed by 
 **Tacnix Websites**:
 
 - HTTPS: [https://www.tacnix.com](https://www.tacnix.com)
-- HTTP: [http://www.tacnix.com](http://www.tacnix.com)
 
 ---
 
