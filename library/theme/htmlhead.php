@@ -11,4 +11,13 @@
     <link rel="preload" href="<?=img?>/circle-dotted.png" as="image" />
     <link href="<?=css?>/plugins.css" rel="stylesheet" />
     <link rel="stylesheet" href="<?=css?>/style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G7EMC6NSFK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-G7EMC6NSFK');
+    </script>
 </head>
