@@ -29,4 +29,4 @@ This website is **not open source**. It is temporarily hosted on GitHub, but it 
 
 ---
 
-&copy; Tacnix
+&copy; 2024 Tacnix | [www.tacnix.com](https://www.tacnix.com)
