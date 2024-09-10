@@ -30,3 +30,5 @@ This website is **not open source**. It is temporarily hosted on GitHub, but it 
 ---
 
 &copy; 2024 Tacnix | [www.tacnix.com](https://www.tacnix.com) | Policies
+
+Hosted with &hearts; on <a target="_blank" rel="noopener" href="https://www.github.com" alt="Github">Github.</a>
