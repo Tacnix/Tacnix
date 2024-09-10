@@ -1,6 +1,4 @@
-# &lt;/tacnix&gt;
-
-## Remote Work Policy
+# Remote Work Policy
 
 - Currently you're on [Remote Work Policy Page](https://www.tacnix.com/remote-policy) ! Like to go back to the [Home](https://www.tacnix.com)
 
