@@ -15,7 +15,7 @@ At **Tacnix**, we operate with a remote-first mindset. Our remote work policy is
 - **Health & Safety**: We promote adherence to health and safety best practices, ensuring you work comfortably in a safe environment.
 - **Team Support**: We regularly check in with teams through virtual meetings to keep everyone connected and aligned.
 
-[Learn more about our Remote Work Policy](https://www.tacnix.com/policies/remote-policy)
+[Learn more about our Remote Work Policy](https://www.tacnix.com/remote-policy)
 
 ---
 
@@ -28,7 +28,7 @@ At **Tacnix**, the health and well-being of our employees remain a top priority.
 - **Follow Health Guidelines**: Employees are expected to adhere to public health guidelines and avoid working when unwell.
 - **No Mandatory Proof**: While proof of vaccination is not required for remote roles, employees are encouraged to stay proactive about their health.
 
-[Learn more about our Vaccine Policy](https://www.tacnix.com/policies/vaccine-policy)
+[Learn more about our Vaccine Policy](https://www.tacnix.com/vaccine-policy)
 
 ---
 
