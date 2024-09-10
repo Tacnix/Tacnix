@@ -1,6 +1,4 @@
-# &lt;/tacnix&gt;
-
-## Vaccine Policy
+# Vaccine Policy
 
 - Currently you're on [Vaccine Policy Page](https://www.tacnix.com/remote-policy) ! Like to go back to the [Home](https://www.tacnix.com)
 
