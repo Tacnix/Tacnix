@@ -1,6 +1,6 @@
 # Vaccine Policy
 
-- Currently you're on [Vaccine Policy Page](https://www.tacnix.com/remote-policy) ! Like to go back to the [Home](https://www.tacnix.com)
+- Currently you're on [Vaccine Policy Page](https://www.tacnix.com/vaccine-policy) ! Like to go back to the [Home](https://www.tacnix.com)
 
 
 At **Tacnix**, we are committed to the health and safety of our employees and the community. Our vaccine policy outlines our approach to maintaining a safe work environment.
