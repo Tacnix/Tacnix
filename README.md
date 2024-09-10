@@ -23,7 +23,7 @@ This website is **not open source**. It is temporarily hosted on GitHub, but it 
 - **Twitter**: [https://www.x.com/tacnix1](https://www.x.com/tacnix1)
 - **LinkedIn**: [https://www.linkedin.com/company/tacnix](https://www.linkedin.com/company/tacnix)
 - **GitHub**: [https://www.github.com/tacnix](https://www.github.com/tacnix)
-- **YouTube**: [https://www.youtube.com/c/tacnix](https://www.youtube.com/c/tacnix)
+- **YouTube**: [https://www.youtube.com/@tacnix](https://www.youtube.com/@tacnix)
 
 ---
 
