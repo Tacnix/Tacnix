@@ -1,7 +1,6 @@
+[Home](https://www.tacnix.com/) > [Policies](https://www.tacnix.com/policies) > Vaccine Policy
+
 # Vaccine Policy
-
-- Currently you're on [Vaccine Policy Page](https://www.tacnix.com/vaccine-policy) ! Like to go back to the [Home](https://www.tacnix.com)
-
 
 At **Tacnix**, we are committed to the health and safety of our employees and the community. Our vaccine policy outlines our approach to maintaining a safe work environment.
 
@@ -37,5 +36,7 @@ Our vaccine policy is designed to ensure the well-being of our remote team membe
 ## 5. **Contact Information**
 
 For questions or additional information about our vaccine policy, please reach out to **hr@tacnix.com**.
+
+← Back to [Home](https://www.tacnix.com)
 
 &copy; 2024 [Tacnix](https://www.tacnix.com) | [Policies](https://www.tacnix.com/policies) | Hosted with &hearts; on <a target="_blank" rel="noopener" href="https://www.github.com" alt="Github">Github.</a>.
