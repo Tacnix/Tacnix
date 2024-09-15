@@ -1,7 +1,6 @@
+[Home](https://www.tacnix.com/) > [Policies](https://www.tacnix.com/policies) > Remote Work Policy
+
 # Remote Work Policy
-
-- Currently you're on [Remote Work Policy Page](https://www.tacnix.com/remote-policy) ! Like to go back to the [Home](https://www.tacnix.com)
-
 
 At **Tacnix**, we believe in the power of remote work to enhance flexibility, productivity, and overall employee well-being. Our **remote-first** approach allows our team members to work from any location, promoting a balanced and healthy work-life integration.
 
@@ -87,5 +86,7 @@ This remote work policy is subject to periodic updates to ensure alignment with 
 ---
 
 If you have any questions regarding our remote work policy, feel free to reach out to **hr@tacnix.com**.
+
+← Back to [Home](https://www.tacnix.com)
 
 &copy; 2024 [Tacnix](https://www.tacnix.com) | [Policies](https://www.tacnix.com/policies) | Hosted with &hearts; on <a target="_blank" rel="noopener" href="https://www.github.com" alt="Github">Github.</a>.
