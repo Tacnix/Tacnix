@@ -38,4 +38,4 @@ Our vaccine policy is designed to ensure the well-being of our remote team membe
 
 For questions or additional information about our vaccine policy, please reach out to **hr@tacnix.com**.
 
-&copy; 2024 [Tacnix](https://www.tacnix.com) | [Policies](https://www.tacnix.com/policies.md) | Hosted with &hearts; on <a target="_blank" rel="noopener" href="https://www.github.com" alt="Github">Github.</a>.
+&copy; 2024 [Tacnix](https://www.tacnix.com) | [Policies](https://www.tacnix.com/policies) | Hosted with &hearts; on <a target="_blank" rel="noopener" href="https://www.github.com" alt="Github">Github.</a>.
