@@ -1,3 +1,5 @@
+[Home](https://www.tacnix.com/) > Policies
+
 # Tacnix Policies
 
 Welcome to the Tacnix policy repository. Here, you can find detailed information about our operational policies. These policies showcase our dedication to fostering a supportive, flexible, and compliant work environment for all our employees.
@@ -39,5 +41,7 @@ We are continually refining and updating our policies to ensure they align with 
 ---
 
 If you have any questions or need more information about our policies, feel free to reach out to us at **hello@tacnix.com**.
+
+[← Back to Home](https://www.tacnix.com)
 
 &copy; 2024 [Tacnix](https://www.tacnix.com) | [Policies](https://www.tacnix.com/policies) | Hosted with &hearts; on <a target="_blank" rel="noopener" href="https://www.github.com" alt="Github">Github.</a>.
