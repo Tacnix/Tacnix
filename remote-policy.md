@@ -87,6 +87,6 @@ This remote work policy is subject to periodic updates to ensure alignment with 
 
 If you have any questions regarding our remote work policy, feel free to reach out to **hr@tacnix.com**.
 
-← Back to [Home](https://www.tacnix.com)
+[← Back to Policies](https://www.tacnix.com/policies)
 
 &copy; 2024 [Tacnix](https://www.tacnix.com) | [Policies](https://www.tacnix.com/policies) | Hosted with &hearts; on <a target="_blank" rel="noopener" href="https://www.github.com" alt="Github">Github.</a>.
