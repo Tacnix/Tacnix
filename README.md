@@ -1,7 +1,3 @@
-- Currently you're on [https://www.tacnix.com](https://www.tacnix.com) !
-
----
-
 # Coming Soon
 
 We are in the process of redesigning our website using PHP and MySQL, integrating a custom HTML and CSS template. Our goal is to enhance and automate all functionalities for a seamless user experience.
