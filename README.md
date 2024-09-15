@@ -1,18 +1,21 @@
 - Currently you're on [https://www.tacnix.com](https://www.tacnix.com) !
 
 ---
+<div style="text-align: center;">
 
-# Coming Soon
+  # Coming Soon
+  
+  We are in the process of redesigning our website using PHP and MySQL, integrating a custom HTML and CSS template. Our goal is to enhance and automate all functionalities for a seamless user experience.
+  
+  ---
+  
+  ### Important Notice
+  
+  This website is **not open source**. It is temporarily hosted on GitHub for development purposes only. Once the website is complete, the GitHub repository will be removed and will no longer be available to the public.
+  
+  ---
 
-We are in the process of redesigning our website using PHP and MySQL, integrating a custom HTML and CSS template. Our goal is to enhance and automate all functionalities for a seamless user experience.
-
----
-
-### Important Notice
-
-This website is **not open source**. It is temporarily hosted on GitHub, but it will not be hosted on GitHub permanently. Once the website is complete, the repository on GitHub will no longer be available to the public.
-
----
+</div>
 
 ### You can find us on this Social & Professional Platforms
 
