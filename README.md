@@ -24,3 +24,16 @@ This website is **not open source**. It is temporarily hosted on GitHub for deve
 ---
 
 &copy; 2024 [Tacnix](https://www.tacnix.com) | [Policies](https://www.tacnix.com/policies) | Hosted with &hearts; on <a target="_blank" rel="noopener" href="https://www.github.com" alt="Github">Github.</a>
+
+```javascript
+    <script>
+        function onClick(e) {
+            e.preventDefault();
+            grecaptcha.enterprise.ready(async () => {
+                const token = await grecaptcha.enterprise.execute('6Lc-hEgqAAAAALFNtNkS40iYdwTPg70ULYyxsu8a', {action: 'LOGIN'});
+            });
+        }
+    </script>
+
+    <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siq15382083022a678e468bad67514c38a0b3dbb7d68307b9e6b7ddc74743a7c3c6" defer></script>
+```
